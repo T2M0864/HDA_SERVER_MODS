@@ -1,0 +1,309 @@
+menu_title: 'Bed Wars Doubles'
+open_command: map-selector-doubles
+open_requirement:
+requirements:
+        permission:
+        type: has permission
+        permission: game.profile.bedwars
+size: 54
+items:
+  '1':
+        material: 339
+        data: 0
+        slot: 10
+        display_name: '&aAirshow'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-airshow%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-airshow'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-airshow'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '2':
+        material: 339
+        data: 0
+        slot: 11
+        display_name: '&aAmazon'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-amazon%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-amazon'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-amazon'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '3':
+        material: 339
+        data: 0
+        slot: 12
+        display_name: '&aAshfire'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-ashfire%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-ashfire'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-ashfire'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '4':
+        material: 339
+        data: 0
+        slot: 13
+        display_name: '&aDragonstar'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-dragonstar%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-dragonstar'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-dragonstar'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '5':
+        material: 339
+        data: 0
+        slot: 14
+        display_name: '&aEasterbasket'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-easterbasket%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-easterbasket'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-easterbasket'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '6':
+        material: 339
+        data: 0
+        slot: 15
+        display_name: '&aEgghunt'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-egghunt%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-egghunt'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-egghunt'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '7':
+        material: 339
+        data: 0
+        slot: 16
+        display_name: '&aHollow'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-hollow%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-hollow'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-hollow'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '8':
+        material: 339
+        data: 0
+        slot: 19
+        display_name: '&aLighthouse'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-lighthouse%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-lighthouse'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-lighthouse'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '9':
+        material: 339
+        data: 0
+        slot: 20
+        display_name: '&aSpeedway'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-speedway%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-speedway'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-speedway'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '10':
+        material: 339
+        data: 0
+        slot: 21
+        display_name: '&aWaterfall'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-waterfall%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-waterfall'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-waterfall'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '11':
+        material: 339
+        data: 0
+        slot: 22
+        display_name: '&aZarzul'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_doubles-zarzul%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-zarzul'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles-zarzul'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+
+  '20':
+        material: 262
+        data: 0
+        slot: 49
+        display_name: '&aGo Back'
+        lore:
+        - '&7To Play Bed Wars'
+        left_click_commands:
+        - '[close]'
+        - '[player] dm open play-doubles'
+        right_click_commands:
+        - '[close]'
+        - '[player] dm open play-doubles'
+  '21':
+        material: 401
+        data: 0
+        slot: 39
+        display_name: '&aRandom Map'
+        lore:
+        - '&8doubles'
+        - ''
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join doubles'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join doubles'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+          

@@ -1,0 +1,63 @@
+menu_title: '&7&lPlay'
+open_command: quickplay
+size: 9
+items:
+  '1':
+    material: BED
+    slot: 1
+    display_name: '&a&lSolo'
+    lore:
+    - '&fSolo Bedwars'
+    - '&7(1V1V1V1V1V1V1V1)'
+    - '&7(Left-Click to play)'
+    left_click_commands:
+    - '[player] bw join Solo'
+    - '[close]'
+    right_click_commands:
+    - '[player] bw join Solo'
+    - '[close]'
+  '2':
+    material: BED
+    slot: 3
+    display_name: '&a&lDoubles'
+    amount: 2
+    lore:
+    - '&fDoubles Bedwars'
+    - '&7(2V2V2V2V2V2V2V2)'
+    - '&7(Left-Click to play)'
+    left_click_commands:
+    - '[player] bw join Doubles'
+    - '[close]'
+    right_click_commands:
+    - '[player] bw join Doubles'
+    - '[close]'
+  '3':
+    material: BED
+    slot: 5
+    display_name: '&a&lTrios'
+    amount: 3
+    lore:
+    - '&fTrios Bedwars'
+    - '&7(3V3V3V3)'
+    - '&7(Left-Click to play)'
+    left_click_commands:
+    - '[player] bw join trios'
+    - '[close]'
+    right_click_commands:
+    - '[player] bw join trios'
+    - '[close]'
+  '4':
+    material: BED
+    slot: 7
+    display_name: '&a&lSquads'
+    amount: 4
+    lore:
+    - '&fSquads Bedwars'
+    - '&7(4V4V4V4)'
+    - '&7(Left-Click to play)'
+    left_click_commands:
+    - '[player] bw join squads'
+    - '[close]'
+    right_click_commands:
+    - '[player] bw join squads'
+    - '[close]'

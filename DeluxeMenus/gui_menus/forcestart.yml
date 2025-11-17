@@ -1,0 +1,22 @@
+menu_title: '&l&7Force Start &a[VIP]'
+open_command: forcestart
+size: 9
+items:
+  '1':
+    material: WOOL
+    slot: 4
+    display_name: '&aForce Start The Game'
+    lore:
+    - '&fReqires &a[VIP]'
+    - '&7Consider Donating If You Already Dont Have &a[VIP]'
+    - '&7store.servername.net'
+    left_click_commands:
+    - '[player] bw start'
+    - '[close]'
+    left_click_requirement:
+      expression: 'BukkitPlayer.hasPermission("bedwars.start")'
+    right_click_commands:
+    - '[player] bw start'
+    - '[close]'
+    right_click_requirement:
+      expression: 'BukkitPlayer.hasPermission("bedwars.start")'

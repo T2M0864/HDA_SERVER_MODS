@@ -1,0 +1,265 @@
+    menu_title: 'Bed Wars 4v4v4v4'
+    open_command:
+    - map-selector-4v4v4v4
+    open_requirement:
+    requirements:
+        permission:
+        type: has permission
+        permission: game.profile.bedwars
+    size: 54
+    items:
+    
+      '1':
+        material: 339
+        data: 0
+        slot: 10
+        display_name: '&aForest'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_squads-forest%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join squads-forest'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join squads-forest'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '4':
+        material: 339
+        data: 0
+        slot: 11
+        display_name: '&aArchway'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_squads-archway%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join squads-archway'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join squads-archway'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '5':
+        material: 339
+        data: 0
+        slot: 12
+        display_name: '&aAquarium'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_aquarium4v4v4v4%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join aquarium4v4v4v4'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join aquarium4v4v4v4'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '6':
+        material: 339
+        data: 0
+        slot: 13
+        display_name: '&aAshore'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_squads-ashore%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join squads-ashore'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join squads-ashore'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '7':
+        material: 339
+        data: 0
+        slot: 14
+        display_name: '&aBoletum'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_squads-boletum%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join squads-boletum'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join squads-boletum'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '8':
+        material: 339
+        data: 0
+        slot: 15
+        display_name: '&aCarapace'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_squads-carapace%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join squads-carapace'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join squads-carapace'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '9':
+        material: 339
+        data: 0
+        slot: 16
+        display_name: '&aCatalyst'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_squads-catalyst%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join squads-catalyst'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join squads-catalyst'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '12':
+        material: 339
+        data: 0
+        slot: 19
+        display_name: '&aCauldron'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_squads-cauldron%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join squads-cauldron'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join squads-cauldron'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '13':
+        material: 339
+        data: 0
+        slot: 20
+        display_name: '&aChained'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_squads-chained%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join squads-chained'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join squads-chained'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '14':
+        material: 339
+        data: 0
+        slot: 21
+        display_name: '&aCongress'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_squads-congress%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join squads-congress'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join squads-congress'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '10':
+        material: 262
+        data: 0
+        slot: 49
+        display_name: '&aGo Back'
+        lore:
+        - '&7To Play Bed Wars'
+        left_click_commands:
+        - '[close]'
+        - '[player] dm open play-squads'
+        right_click_commands:
+        - '[close]'
+        - '[player] dm open play-squads'
+      '11':
+        material: 401
+        data: 0
+        slot: 39
+        display_name: '&aRandom Map'
+        lore:
+        - '&84v4v4v4'
+        - ''
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join squads'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join squads'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'

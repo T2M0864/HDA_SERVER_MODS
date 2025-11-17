@@ -1,0 +1,66 @@
+    menu_title: 'Play Bed Wars'
+    open_command:
+    - play-doubles
+    open_requirement:
+    requirements:
+        permission:
+        type: has permission
+        permission: game.profile.bedwars
+    size: 36
+    items:
+      '1':
+        material: 355
+        data: 0
+        slot: 12
+        display_name: '&aBed Wars (Doubles)'
+        lore:
+        - '&7Play Bed Wars Doubles'
+        - ''
+        - '&eClick to play!'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join Doubles'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join Doubles'
+      '2':
+        material: 323
+        data: 0
+        slot: 14
+        display_name: '&aMap Selector (Doubles)'
+        lore:
+        - '&7Pick which map you want to play'
+        - '&7from a list of available servers.'
+        - ''
+        - '&eClick to browse'
+        left_click_commands:
+        - '[close]'
+        - '[player] dm open map-selector-doubles'
+        right_click_commands:
+        - '[close]'
+        - '[player] dm open map-selector-doubles'
+      '3':
+        material: 166
+        data: 0
+        slot: 31
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      '4':
+        material: 368
+        data: 0
+        slot: 35
+        display_name: '&cClick here to rejoin!'
+        lore:
+        - '&7Click here to rejoin your'
+        - '&7game if you have been'
+        - '&7disconnected from it.'
+        left_click_commands:
+        - '[close]'
+        - '[player] rejoin'
+        right_click_commands:
+        - '[close]'
+        - '[player] rejoin'

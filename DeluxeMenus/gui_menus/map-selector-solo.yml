@@ -1,0 +1,309 @@
+menu_title: 'Bed Wars Solo'
+open_command: map-selector-solo
+open_requirement:
+requirements:
+        permission:
+        type: has permission
+        permission: game.profile.bedwars
+size: 54
+items:
+  '1':
+        material: 339
+        data: 0
+        slot: 10
+        display_name: '&aAirshow'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-airshow%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-airshow'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-airshow'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '2':
+        material: 339
+        data: 0
+        slot: 11
+        display_name: '&aAmazon'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-amazon%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-amazon'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-amazon'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '3':
+        material: 339
+        data: 0
+        slot: 12
+        display_name: '&aAshfire'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-ashfire%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-ashfire'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-ashfire'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '4':
+        material: 339
+        data: 0
+        slot: 13
+        display_name: '&aDragonstar'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-dragonstar%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-dragonstar'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-dragonstar'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '5':
+        material: 339
+        data: 0
+        slot: 14
+        display_name: '&aEasterbasket'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-easterbasket%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-easterbasket'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-easterbasket'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '6':
+        material: 339
+        data: 0
+        slot: 15
+        display_name: '&aEgghunt'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-egghunt%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-egghunt'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-egghunt'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '7':
+        material: 339
+        data: 0
+        slot: 16
+        display_name: '&aHollow'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-hollow%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-hollow'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-hollow'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '8':
+        material: 339
+        data: 0
+        slot: 19
+        display_name: '&aLighthouse'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-lighthouse%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-lighthouse'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-lighthouse'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '9':
+        material: 339
+        data: 0
+        slot: 20
+        display_name: '&aSpeedway'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-speedway%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-speedway'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-speedway'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '10':
+        material: 339
+        data: 0
+        slot: 21
+        display_name: '&aWaterfall'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-waterfall%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-waterfall'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-waterfall'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+  '11':
+        material: 339
+        data: 0
+        slot: 22
+        display_name: '&aZarzul'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Times Joines: &a%bw1058_stats_gamesplayed%'
+        - '&7Map Status: %bw1058_arena_status_solo-zarzul%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join solo-zarzul'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join solo-zarzul'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+
+  '20':
+        material: 262
+        data: 0
+        slot: 49
+        display_name: '&aGo Back'
+        lore:
+        - '&7To Play Bed Wars'
+        left_click_commands:
+        - '[close]'
+        - '[player] dm open play-solo'
+        right_click_commands:
+        - '[close]'
+        - '[player] dm open play-solo'
+  '21':
+        material: 401
+        data: 0
+        slot: 39
+        display_name: '&aRandom Map'
+        lore:
+        - '&8Solo'
+        - ''
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join Solo'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join Solo'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+          

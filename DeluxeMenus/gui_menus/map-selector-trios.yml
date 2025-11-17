@@ -1,0 +1,266 @@
+    menu_title: 'Bed Wars 3v3v3v3'
+    open_command:
+    - map-selector-3v3v3v3
+    open_requirement:
+    requirements:
+        permission:
+        type: has permission
+        permission: game.profile.bedwars
+    size: 54
+    items:
+    
+      '1':
+        material: 339
+        data: 0
+        slot: 10
+        display_name: '&aForest'
+        lore:
+        - '&8Duobles'
+        - ''
+        - '&7Available Servers: &a1'
+        - '&7Map Status: %bw1058_arena_status_trios-forest%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join trios-forest'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join trios-forest'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '4':
+        material: 339
+        data: 0
+        slot: 11
+        display_name: '&aArchway'
+        lore:
+        - '&83v3v3v3'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_trios-archway%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join trios-archway'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join trios-archway'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '5':
+        material: 339
+        data: 0
+        slot: 12
+        display_name: '&aAquarium'
+        lore:
+        - '&83v3v3v3'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_aquarium3v3v3v3%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join aquarium3v3v3v3'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join aquarium3v3v3v3'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '6':
+        material: 339
+        data: 0
+        slot: 13
+        display_name: '&aAshore'
+        lore:
+        - '&83v3v3v3'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_trios-ashore%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join trios-ashore'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join trios-ashore'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '7':
+        material: 339
+        data: 0
+        slot: 14
+        display_name: '&aBoletum'
+        lore:
+        - '&83v3v3v3'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_trios-boletum%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join trios-boletum'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join trios-boletum'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '8':
+        material: 339
+        data: 0
+        slot: 15
+        display_name: '&aCarapace'
+        lore:
+        - '&83v3v3v3'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_trios-carapace%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join trios-carapace'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join trios-carapace'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '9':
+        material: 339
+        data: 0
+        slot: 16
+        display_name: '&aCatalyst'
+        lore:
+        - '&83v3v3v3'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_trios-catalyst%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join trios-catalyst'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join trios-catalyst'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '12':
+        material: 339
+        data: 0
+        slot: 19
+        display_name: '&aCauldron'
+        lore:
+        - '&83v3v3v3'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_trios-cauldron%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join trios-cauldron'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join trios-cauldron'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '13':
+        material: 339
+        data: 0
+        slot: 20
+        display_name: '&aChained'
+        lore:
+        - '&83v3v3v3'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_trios-chained%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join trios-chained'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join trios-chained'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '14':
+        material: 339
+        data: 0
+        slot: 21
+        display_name: '&aCongress'
+        lore:
+        - '&83v3v3v3'
+        - ''
+        - '&7Map Status: %bw1058_arena_status_trios-congress%'
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join trios-congress'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join trios-congress'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+      '10':
+        material: 262
+        data: 0
+        slot: 49
+        display_name: '&aGo Back'
+        lore:
+        - '&7To Play Bed Wars'
+        left_click_commands:
+        - '[close]'
+        - '[player] dm open play-trios'
+        right_click_commands:
+        - '[close]'
+        - '[player] dm open play-trios'
+      '11':
+        material: 401
+        data: 0
+        slot: 39
+        display_name: '&aRandom Map'
+        lore:
+        - '&83v3v3v3'
+        - ''
+        - '&7Map Selections: &a[VIP&6+&a]&r'
+        - ''
+        - '&aClick to Play'
+        left_click_commands:
+        - '[close]'
+        - '[player] bw join 3v3v3v3'
+        left_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
+        right_click_commands:
+        - '[close]'
+        - '[player] bw join 3v3v3v3'
+        right_click_requirement:
+          expression: 'BukkitPlayer.hasPermission("bedwars.map.selector")'
