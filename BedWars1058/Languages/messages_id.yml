@@ -1,0 +1,1541 @@
+prefix: ''
+name: Indonesia
+cmd-main-list:
+- ''
+- '&2▪ &7/bw stats'
+- '&2▪ &7/bw join &o<arena/grup>'
+- '&2▪ &7/bw leave'
+- '&2▪ &7/bw lang'
+- '&2▪ &7/bw gui'
+- '&2▪ &7/bw start &3(vip)'
+cmd-lang-list-header: '{prefix} &2Bahasa Tersedia:'
+cmd-lang-list-format: '&a▪  &7{iso} - &f{name}'
+cmd-lang-usage: '{prefix}&7Gunakan: /lang &f&o<bahasa>'
+cmd-lang-not-exist: '{prefix}&cBahasa ini tidak tersedia!'
+cmd-lang-set: '{prefix}&aBahasa terganti!'
+cmd-lang-not-set: '{prefix}&cAnda tidak bisa ganti bahasa saat dalam permainan.'
+cmd-join-usage: '§a▪ §7Gunakan: /bw join §o<arena/grup>'
+cmd-join-not-found: '{prefix}&cTidak ada arena atau group yang bernama: {name}'
+cmd-join-arena-full: |-
+  {prefix}&cArena tersebut penuh!
+  &aSilakan pertimbangkan untuk menyumbang untuk lebih banyak fitur. &7&o(click)
+cmd-join-arenas-full: '{prefix}&cTidak ada arena yang tersedia untuk sekarang ;('
+cmd-join-arena-full-vips: |-
+  {prefix}&cKami meminta maaf tapi arena sedang penuh.
+  &cKami tahu Anda seorang donatur tetapi sebenarnya arena ini penuh dengan staf atau/dan donatur.
+cmd-join-party-big: '{prefix}&cParty anda terlalu ramai untuk memasuki arena sebagai
+  team :('
+cmd-join-not-leader: '{prefix}&cHanya pemimpin yang dapat memilih arena.'
+cmd-join-success: '{prefix}&7{player} &etelah masuk (&b{on}&e/&b{max}&e)!'
+cmd-join-spectate: |-
+  {prefix}§6Kamu sekarang menonton §9{arena}§6.
+  {prefix}§eKamu bisa keluar arena kapan pun dengan cara §c/leave§e.
+cmd-join-spectate-denied: '&cPenonton tidak diperbolehkan di arena tersebut!'
+cmd-tp-player-not-found: '{prefix}&cPemain tidak ditemukan!'
+cmd-tp-not-in-arena: '{prefix}&cPlayer tersebut tidak ada di arena!'
+cmd-tp-not-started: '{prefix}&cArena dimana player tersebut berada belum dimulai!'
+cmd-tp-usage: '{prefix}&cGunakan: /bw tp <nama pengguna>'
+cmd-rejoin-no-arena: '{prefix}&cTidak ada arena untuk bergabung kembali!'
+cmd-rejoin-denied: '{prefix}&cKamu tidak dapat bergabung ke arena kembali. Pertandingan
+  selesai atau bed kamu telah dihancurkan.'
+cmd-rejoin-allowed: '{prefix}&eMemasuki arena &a{arena}&e!'
+cmd-rejoin-player-reconnected: '{prefix}&7{player} &etelah terhubung kembali!'
+cmd-not-in-arena: '{prefix}&cKamu sedang tidak di arena!'
+cmd-leave: '{prefix}&7{player} &etelah keluar!'
+cmd-blocked-in-game: '{prefix}&cAnda tidak dapat melakukan ini selama pertandingan.'
+cmd-not-found: '{prefix}&cPerintah tidak ditemukan atau Anda tidak memiliki izin!'
+cmd-party-help:
+- '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&aPerintah Party:'
+- '&e/party help &7- &bCetak pesan bantuan ini'
+- '&e/party invite <player> &7- &bMengundang pemain ke party Anda'
+- '&e/party leave &7- &bMeninggalkan party yang anda masuki'
+- '&e/party remove <player> &7- &bKeluarkan pemain dari party'
+- '&e/party accept <player> &7- &bTerima undangan party'
+- '&e/party disband &7- &bBubarkan party'
+cmd-party-invite-usage: '{prefix}&eGunakan: &7/party invite <pemain>'
+cmd-party-offline: '{prefix}&7{player} &esedang offline!'
+cmd-party-invite: '{prefix}&eInvite sent to &7{player}&6.'
+cmd-party-invite-received: '{prefix}&b{player} &ehas invited you to a party! &o&7(Click
+  to accept)'
+cmd-party-invite-self: '{prefix}&cKamu tidak dapat mengundang diri anda sendiri!'
+cmd-party-no-invite: '{prefix}&eTidak ada undangan party yang perlu kamu terima!'
+cmd-party-already-in: '{prefix}&eKamu sedang berada di party!'
+cmd-party-no-perm: '{prefix}&cHanya pemilik party yang dapat melakukan ini!'
+cmd-party-accept-usage: '{prefix}&eGunakan: &7/party accept <pemain>'
+cmd-party-join: '{prefix}&7{player} &etelah memasuki party!'
+cmd-party-not-in: '{prefix}&cKamu tidak berada di party!'
+cmd-party-cant-leave: |-
+  {prefix}&cKamu tidak dapat keluar dari party kamu sendiri!
+  &eCoba gunakan: &b/party disband
+cmd-party-leave: '{prefix}&7{player} &etelah keluar party!'
+cmd-party-disband: '{prefix}&eParty dibubarkan!'
+cmd-party-remove-usage: '{prefix}&7Gunakan: &e/party remove <pemain>'
+cmd-party-remove: '{prefix}&7{player} &etelah dikeluarkan dari party,'
+cmd-party-remove-not-in: '{prefix}&7{player} &etidak ada di party!'
+cmd-start-no-game: §c▪ §7Kamu sedang tidak bermain!
+cmd-start: §c▪ §7Hitung mundur dipersingkat!
+cmd-start-no-perm: |-
+  {prefix}&7Anda tidak dapat memaksa memulai arena.
+  §7Harap pertimbangkan untuk menyumbang untuk fitur VIP.
+cmd-cooldown: '&cAnda belum bisa melakukannya! Tunggu {seconds} detik lagi!'
+arena-kicked-by-vip: |-
+  {prefix}&cMaaf, tapi Anda dikeluarkan karena donatur bergabung ke arena.
+  &aHarap pertimbangkan untuk menyumbang untuk lebih banyak fitur. &7&o(click)
+arena-countdown-stopped: '{prefix}§cTidak ada cukup pemain! Hitung mundur dihentikan!'
+arena-restart-kick: '{prefix}&eArena tempat Anda berada sedang dimulai ulang.'
+arena-status-playing: '&cBermain'
+arena-status-restarting: '&4Memulai Kembali'
+arena-status-waiting: '&2Menunggu §c{full}'
+arena-status-starting: '&6Mulai §c{full}'
+arena-selector-gui-name: '&8Klik untuk bergabung!'
+arena-selector-content-name: '&a&l{name}'
+arena-selector-content-lore:
+- ''
+- '&7Status: {status}'
+- '&7Pemain: &f{on}&7/&f{max}'
+- '&7Tipe: &a{group}'
+- ''
+- '&aKlik Kiri untuk bergabung.'
+- '&eKlik Kanan untuk menonton.'
+arena-selector-skipped-item-name: '&r{serverIp}'
+arena-selector-skipped-item-lore: []
+arena-start-countdown: '{prefix}&ePermainan dimulai dalam &6{time} &edetik!'
+arena-start-countdown-title: ' '
+arena-start-countdown-subtitle: '&a{second}'
+arena-start-countdown-subtitle-5: '&e❺'
+arena-start-countdown-subtitle-4: '&e❹'
+arena-start-countdown-subtitle-3: '&c❸'
+arena-start-countdown-subtitle-2: '&c❷'
+arena-start-countdown-subtitle-1: '&c❶'
+arena-countdown-stopped-subtitle: '&cMenunggu lebih banyak pemain..'
+arena-start-title: '&aMULAI'
+arena-start-tutorial:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lPerang Kasur'
+- ''
+- '&e&l    Lindungi kasur Anda dan hancurkan kasur musuh.'
+- '&e&l  Tingkatkan diri Anda dan tim Anda dengan mengumpulkan'
+- '&e&l   Besi, Emas, Zamrud, dan Berlian dari generator'
+- '&e&l   untuk mendapatkan akses peningkatan yang kuat.'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+arena-join-denied-selector: '{prefix}&cMaaf, tetapi sementara Anda tidak dapat bergabung
+  ke arena tersebut. Gunakan Klik Kanan untuk menonton!'
+arena-spectate-denied-selector: '{prefix}&cMaaf tapi sementara kamu tidak bisa menonton
+  arena ini. Gunakan Klik Kiri untuk bergabung!'
+arena-join-denied-no-bwp: "&cMaaf, tetapi Anda harus bergabung ke arena menggunakan\
+  \ BedWarsProxy. \n&eJika Anda ingin menyiapkan arena, pastikan untuk memberi diri\
+  \ Anda izin bw.setup sehingga Anda dapat bergabung dengan server secara langsung!"
+spectator-tp-gui-name: '&8Teleporter'
+spectator-tp-gui-head-name: '{prefix}{player}'
+spectator-tp-gui-head-lore:
+- '&7Hati: &f{health}%'
+- '&7Bar Kelaparan: &f{food}'
+- ''
+- '&7Klik kiri untuk menonton!'
+spectator-tp-name: '&c&lKembali ke lobi'
+spectator-tp-lore:
+- '&7Klik kanan untuk keluar ke lobi!'
+spectator-first-person-enter-title: '&aMenonton &7{player}'
+spectator-first-person-enter-subtitle: '&cSNEAK untuk keluar'
+spectator-first-person-quit-title: '&eKeluar dari mode Penonton'
+spectator-first-person-quit-subtitle: ''
+arena-leave-party-disbanded: '{prefix}§cPemilik party telah pergi dan party itu dibubarkan!'
+generator-tier: '&eTingkat &c{tier}'
+generator-diamond: '&b&lBerlian'
+generator-emerald: '&a&lZamrud'
+generator-timer: '&eMuncul dalam &c{seconds} &edetik'
+generator-upgrade-announce: '{prefix}{generatorType} Generator &etelah ditingkatkan
+  ke Tingkat &c{tier}'
+format-chat-lobby: '{level}{vPrefix}&7{player}{vSuffix}: {message}'
+format-chat-waiting: '{level}{vPrefix}&7{player}{vSuffix}: {message}'
+format-chat-global: '&6[SHOUT] {team} {level}{vPrefix}&7{player}&f{vSuffix}: {message}'
+format-chat-team: '&f{team} {level}{vPrefix}&7{player}{vSuffix} {message}'
+format-chat-spectator: '&7[PENONTON] {level}{vPrefix}{player}{vSuffix}: {message}'
+format-sb-health:
+- '&c❤'
+format-spectator-team: PENONTON
+format-spectator-color: '&7'
+format-sb-tab-prefix:
+  restarting:
+  - '{teamColor}&l{teamLetter} &r{teamColor}'
+  - '{team} '
+  - '{vPrefix} {teamColor}'
+  playing:
+  - '{teamColor}&l{teamLetter} &r{teamColor}'
+  - '{team} '
+  - '{vPrefix} {teamColor}&l{teamLetter} &r{teamColor}'
+  starting:
+  - '{vPrefix} '
+  waiting:
+  - '{vPrefix} '
+  lobby:
+  - '{vPrefix} '
+format-sb-tab-suffix:
+  restarting: []
+  playing: []
+  starting: []
+  waiting: []
+  lobby: []
+format-sb-date: dd/MM/yy
+format-sb-team-generic: '{TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}'
+format-sb-team-eliminated: '&c&l✘'
+format-sb-bed-destroyed: '&a{remainingPlayers}'
+format-sb-team-alive: '&a&l✓'
+format-sb-generator-timer: mm:ss
+format-sb-you: '&7 KAMU'
+format-action-tracking: '&fMelacak: {team} &f- Jarak: {distance}m'
+format-winner-team: '      {TeamColor}{TeamName} &7- {members}'
+format-winner-solo: '                 {TeamColor}{TeamName} &7- {members}'
+format-tier1: I
+format-tier2: II
+format-tier3: III
+format-despawnable-health: '▮ '
+format-stats-time: yyyy/MM/dd HH:mm
+format-papi-player-team: '{TeamColor}[{TeamName}]'
+format-papi-player-shout: '&6[SHOUT]'
+format-papi-player-spectator: '&7[PENONTON]'
+meaning-full: Penuh
+meaning-shout: shout
+meaning-nobody: Bukan Siapa Siapa
+meaning-never: Tidak Pernah
+meaning-iron-singular: Besi
+meaning-iron-plural: Besi
+meaning-gold-singular: Emas
+meaning-gold-plural: Emas
+meaning-emerald-singular: Zamrud
+meaning-emerald-plural: Zamrud
+meaning-diamond-singular: Zamrud
+meaning-diamond-plural: Zamrud
+meaning-vault-singular: $
+meaning-vault-plural: $
+interact-cant-place: '{prefix}&cAnda tidak dapat menempatkan blok di sini!'
+interact-cant-break: '{prefix}&cAnda hanya dapat memecahkan blok yang ditempatkan
+  oleh pemain!'
+interact-cant-destroy-bed: '&cAnda tidak dapat menghancurkan kasur Anda sendiri!'
+interact-bed-destroy-chat: |2
+
+  &f&lPENGHANCURAN KASUR > {TeamColor}{TeamName} Kasur &7telah dihancurkan oleh {PlayerColor}{PlayerName}&7!
+interact-bed-destroy-title: '&cKASUR HANCUR!'
+interact-bed-destroy-subtitle: '&fAnda tidak akan respawn kembali!'
+interact-bed-destroy-team: '&f&lPENGHANCURKAN KASUR N > &7Kasur Anda telah dihancurkan
+  oleh {PlayerColor}{PlayerName}&7!'
+interact-cant-open-chest: '&cAnda tidak dapat membuka peti ini karena tim ini belum
+  tereliminasi!'
+player-die-void-regular: '{PlayerColor}{PlayerName} &7jatuh ke void.'
+player-die-void-final: '{PlayerColor}{PlayerName} &7jatuh ke void. &b&lPEMBUNUHAN
+  TERAKHIR!'
+player-die-knocked-void-regular: '{PlayerColor}{PlayerName} &7terlempar ke dalam void
+  oleh {KillerColor}{KillerName}&7.'
+player-die-knocked-void-final: '{PlayerColor}{PlayerName} &7terlempar ke dalam void
+  oleh {KillerColor}{KillerName}&7. &b&lPEMBUNUHAN TERAKHIR!'
+player-die-pvp-log-out-regular: '{PlayerColor}{PlayerName} &7terputus saat bertarung
+  dengan {KillerColor}{KillerName}&7.'
+player-die-pvp-log-out-final: '{PlayerColor}{PlayerName} &7terputus saat bertarung
+  dengan {KillerColor}{KillerName}&7. &b&lPEMBUNUHAN TERAKHIR!'
+player-die-knocked-fall-regular: '{PlayerColor}{PlayerName} &7didorong oleh {KillerColor}{KillerName}&7.'
+player-die-knocked-fall-final: '{PlayerColor}{PlayerName} &7didorong oleh {KillerColor}{KillerName}&7.
+  &b&lPEMBUNUHAN TERAKHIR!'
+player-die-bomb-regular: '{PlayerColor}{PlayerName} &7terkena bom cinta dari {KillerColor}{KillerName}&7.'
+player-die-bomb-final: '{PlayerColor}{PlayerName} &7terkena bom cinta dari {KillerColor}{KillerName}&7.
+  &b&lPEMBUNUHAN TERAKHIR!'
+player-die-bomb2-regular: '{PlayerColor}{PlayerName} &7terkena bom.'
+player-die-bomb2-final: '{PlayerColor}{PlayerName} &7terkena bom. &b&lPEMBUNUHAN TERAKHIR!'
+player-die-attack-regular: '{PlayerColor}{PlayerName} &7dibunuh oleh {KillerColor}{KillerName}&7.'
+player-die-attack-final: '{PlayerColor}{PlayerName} &7dibunuh oleh {KillerColor}{KillerName}&7.
+  &b&lPEMBUNUHAN TERAKHIR!'
+player-die-unknown-regular: '{PlayerColor}{PlayerName} &7mati.'
+player-die-unknown-final: '{PlayerColor}{PlayerName} &7mati. &b&lPEMBUNUHAN TERAKHIR!'
+player-die-shoot-regular: '{PlayerColor}{PlayerName} &7ditembak oleh {KillerColor}{KillerName}&7.'
+player-die-shoot-final: '{PlayerColor}{PlayerName} &7ditembak oleh {KillerColor}{KillerName}&7!
+  &b&lPEMBUNUHAN TERAKHIR!'
+player-die-bedbug-regular: '{PlayerColor}{PlayerName} &7dibunuh oleh {KillerColor}BedBug
+  si {KillerTeamName}!'
+player-die-bedbug-final: '{PlayerColor}{PlayerName} &7dibunuh oleh {KillerColor}{KillerTeamName}''s
+  &7BedBug! &b&lPEMBUNUHAN TERAKHIR!'
+player-die-golem-regular: '{PlayerColor}{PlayerName} &7dibunuh oleh {KillerColor}Iron
+  Golem si {KillerTeamName}!'
+player-die-golem-final: '{PlayerColor}{PlayerName} &7dibunuh oleh {KillerColor}Iron
+  Golem si {KillerTeamName}! &b&lPEMBUNUHAN TERAKHIR!'
+player-loot-diamond: '{prefix}&b+{amount} {meaning}'
+player-loot-emerald: '{prefix}&a+{amount} {meaning}'
+player-loot-iron: '{prefix}&f+{amount} {meaning}'
+player-loot-gold: '{prefix}&6+{amount} {meaning}'
+player-respawn-title: '&cKAMU MATI!'
+player-respawn-subtitle: '&eAnda akan muncul kembali dalam &c{time} &edetik!'
+player-respawn-timer-chat: '{prefix}&eAnda akan muncul kembali dalam &c{time} &edetik!'
+player-respawned-title: '&aMUNCUL KEMBALI!'
+player-eliminated-chat: '{prefix}&cKamu telah dieliminasi!'
+player-hit-bow: '{prefix}{TeamColor}{PlayerName} &7berada di &c{amount} &7HP!'
+game-end-game-over-title: '&c&lPERMAINAN SELESAI!'
+game-end-victory-title: '&6&lKEMENANGAN!'
+game-end-winner-team: '{prefix}{TeamColor}{TeamName} &atelah memenangkan permainan!'
+game-end-top-chat:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lPerang Kasur'
+- ''
+- '{winnerFormat}'
+- ''
+- ''
+- '&e                          &lPembunuh Pertama &7- {firstName} - {firstKills}'
+- '&6                          &lPembunuh Kedua &7- {secondName} - {secondKills}'
+- '&c                          &lPembunuh Ketiga &7- {thirdName} - {thirdKills}'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+bed-hologram-defend: '&c&lPertahankan Kasur Anda!'
+bed-hologram-destroyed: '&c&lKasur anda telah dihancurkan!'
+npc-team-upgrades: '&bPENINGKATAN TIM,&e&LKLIK KANAN'
+npc-solo-upgrades: '&bPENINGKATAN INDIVIDU,&e&lKLIK KANAN'
+npc-team-shop: '&bTOKO TIM,&e&lKLIK KANAN'
+npc-solo-shop: '&bTOKO BARANG,&e&lKLIK KANAN'
+team-eliminated: |2
+
+  &f&lTIM ELIMINASI > {TeamColor}Tim {TeamName} &ctelah dieliminasi!
+next-event-beds-destroy: '&cPenghancuran Kasur'
+next-event-diamondII: '&fBerlian II'
+next-event-diamondIII: '&fBerlian III'
+next-event-dragon-spawn: '&fKematian Mendadak'
+next-event-emeraldII: '&fZamrud II'
+next-event-emeraldIII: '&fZamrud III'
+next-event-game-end: '&4Permainan Berakhir'
+next-event-beds-destroy-title: '&cKASUR HANCUR!'
+next-event-beds-destroy-sub-title: '&fSemua kasur telah dihancurkan!'
+next-event-beds-destroy-chat: '&c&lSemua kasur telah dihancurkan!'
+next-event-sudden-death-title: '&cKematian Mendadak'
+next-event-sudden-death-sub-title: ''
+next-event-sudden-death-chat: '&cKEMATIAN MENDADAK: &6&b{TeamDragons} {TeamColor}Naga
+  {TeamName}!'
+xp-reward-per-minute: '{prefix}&6+{xp} Experience Bed Wars Diterima (Waktu Bermain).'
+xp-reward-game-win: '{prefix}&6+{xp} Experience Bed Wars Diterima (Memenangkan Permainan).'
+xp-reward-per-teammate: '{prefix}&6+{xp} Experience Bed Wars Diterima (Dukungan Tim).'
+xp-reward-bed-destroyed: '{prefix}&6+{xp} Experience Bed Wars Diterima (Menghancurkan
+  Kasur).'
+xp-reward-regular-kill: '{prefix}&6+{xp} Experience Bed Wars Diterima (Pembunuhan
+  Biasa).'
+xp-reward-final-kill: '{prefix}&6+{xp} Experience Bed Wars Diterima (Pembunuhan Terakhir).'
+money-reward-per-teammate: '{prefix}&6+{money} Koin (Waktu Bermain).'
+money-reward-game-win: '{prefix}&6+{money} Koin (Memenangkan Permainan).'
+money-reward-per-minute: '{prefix}&6+{money} Koin (Dukungan Tim).'
+money-reward-bed-destroyed: '{prefix}&6+{money} Koin (Menghancurkan Kasur).'
+money-reward-final-kill: '{prefix}&6+{money} Koin (Pembunuhan Terakhir).'
+money-reward-regular-kill: '{prefix}&6+{money} Koin (Pembunuhan Biasa).'
+lobby-items-stats-name: '&eStatistik'
+lobby-items-stats-lore:
+- '&fKlik Kanan untuk melihat statistik!'
+lobby-items-arena-selector-name: '&ePemilih Arena'
+lobby-items-arena-selector-lore:
+- '&fKlik Kanan untuk memilih Arena!'
+lobby-items-leave-name: '&eKembali ke Pusat'
+lobby-items-leave-lore:
+- '&fKlik Kanan untuk keluar dari Bed Wars!'
+pre-game-items-stats-name: '&eStatistik'
+pre-game-items-stats-lore:
+- '&fKlik Kanan untuk melihat statistik!'
+pre-game-items-leave-name: '&eKembali ke Lobi'
+pre-game-items-leave-lore:
+- '&fKlik kanan untuk keluar Arena!'
+spectator-items-teleporter-name: '&eTeleporter'
+spectator-items-leave-name: '&eKembali ke Lobi'
+spectator-items-leave-lore:
+- '&fKlik kanan untuk keluar Arena!'
+stats-inv-name: '&8Statistik {player}'
+stats-wins-name: '&6Kememenangan'
+stats-wins-lore:
+- '&f{wins}'
+stats-losses-name: '&6Kekalahan'
+stats-losses-lore:
+- '&f{losses}'
+stats-kills-name: '&6Membunuh'
+stats-kills-lore:
+- '&f{kills}'
+stats-deaths-name: '&6Mati'
+stats-deaths-lore:
+- '&f{deaths}'
+stats-final-kills-name: '&6Pembunuhan Terakhir'
+stats-final-kills-lore:
+- '&f{finalKills}'
+stats-final-deaths-name: '&6Kematian Terakhir'
+stats-final-deaths-lore:
+- '&f{finalDeaths}'
+stats-beds-destroyed-name: '&6Menghancurkan Kasur'
+stats-beds-destroyed-lore:
+- '&f{bedsDestroyed}'
+stats-first-play-name: '&6Pertama Kali Bermain'
+stats-first-play-lore:
+- '&f{firstPlay}'
+stats-last-play-name: '&6Terakhir Kali Bermain'
+stats-last-play-lore:
+- '&f{lastPlay}'
+stats-games-played-name: '&6Pertandingan Dimainkan'
+stats-games-played-lore:
+- '&f{gamesPlayed}'
+scoreboard:
+  Default:
+    waiting:
+    - '&f&fPERANG KASUR'
+    - '&7{date} &8{server}'
+    - ''
+    - '&fMap: &a{map}'
+    - ''
+    - '&fPlayers: &a{on}/{max}'
+    - ''
+    - '&fWaiting...'
+    - ''
+    - '§fMode: &a{group}'
+    - '&fVersion: &7{version}'
+    - ''
+    - '&e{server_ip}'
+    starting:
+    - '&f&lPERANG KASUR'
+    - '&7{date} &8{server}'
+    - ''
+    - '&fMap: &a{map}'
+    - ''
+    - '&fPlayers: &a{on}/{max}'
+    - ''
+    - '&fStarting in &a{time}s'
+    - ''
+    - '§fMode: &a{group}'
+    - '&fVersion: &7{version}'
+    - ''
+    - '&e{server_ip}'
+    playing:
+    - '&e&lPERANG KASUR'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - ''
+    - '&e{server_ip}'
+  Doubles:
+    playing:
+    - '&e&lPERANG KASUR'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - ''
+    - '&e{server_ip}'
+  3v3v3v3:
+    playing:
+    - '&e&lPERANG KASUR'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - ''
+    - '&fKills: &a{kills}'
+    - '&fFinal Kills: &a{finalKills}'
+    - '&fBeds Broken: &a{beds}'
+    - ''
+    - '&e{server_ip}'
+  4v4v4v4:
+    playing:
+    - '&e&lPERANG KASUR'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - ''
+    - '&fKills: &a{kills}'
+    - '&fPembunuhan Terakhir: &a{finalKills}'
+    - '&fBed Dihancurkan: &a{beds}'
+    - ''
+    - '&e{server_ip}'
+  lobby:
+  - '&6&lBedWars,&4&lB&6edWars,&6&lB&4e&6dWars,&6&lBe&4d&6Wars,&6&lBed&4W&6ars,&6&lBedW&4a&6rs,&6&lBedWa&4r&6s,&6&lBedWar&4s,&6&lBedWars'
+  - '&fLevel Anda: {level}'
+  - ''
+  - '&fProgres: &a{currentXp}&7/&b{requiredXp}'
+  - '{progress}'
+  - ''
+  - '&7{player}'
+  - ''
+  - '&fKoin: &a{money}'
+  - ''
+  - '&fTotal Kemenangan: &a{wins}'
+  - '&fTotal Membunuh: &a{kills}'
+  - ''
+  - '&e{server_ip}'
+shop-items-messages:
+  inventory-name: '&8Quick Buy'
+  quick-buy-add-inventory-name: '&8Adding to Quick Buy...'
+  separator-item-name: '&8⇧ Categories'
+  separator-item-lore:
+  - '&8⇩ Items'
+  quick-buy-item-name: '&bQuick Buy'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cEmpty slot!'
+  quick-buy-empty-item-lore:
+  - '&7This is a Quick Buy Slot!'
+  - '&bSneak Click &7any item in'
+  - '&7the shop to add it here.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  blocks-category:
+    inventory-name: '&8Blok'
+    category-item-name: '&aBlok'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-wol-name: '{color}Wol'
+    content-item-wol-lore:
+    - '&7Biaya: &f{cost} {currency}'
+    - ''
+    - '&7Bagus untuk menyebrang'
+    - '&7pulau. Berubah menjadi tim Anda'
+    - '&7color.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-clay-name: '{color}Hardened Clay'
+    content-item-clay-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Blok dasar untuk mempertahankan kasur Anda'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-glass-name: '{color}Kaca Anti Ledakan'
+    content-item-glass-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Kebal terhadap ledakan'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stone-name: '{color}End Stone'
+    content-item-stone-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Blok keras untuk mempertahankan kasur Anda'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ladder-name: '{color}Tangga'
+    content-item-ladder-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Berguna untuk menyelamatkan kucing yang terjebak'
+    - '&7di pohon.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-obsidian-name: '{color}Obsidian'
+    content-item-obsidian-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Perlindungan ekstrim untuk kasur Anda'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-wood-name: '{color}Kayu'
+    content-item-wood-lore:
+    - '&7Biaya: {cos} {currency}'
+    - ''
+    - '&7Blok keras untuk mempertahankan kasur Anda'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-wool-name: '&cName not set'
+    content-item-wool-lore: '&cLore not set'
+  melee-category:
+    inventory-name: '&8Senjata Jarak Dekat'
+    category-item-name: '&aSenjata Jarak Dekat'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-stone-sword-name: '{color}Stone Sword'
+    content-item-stone-sword-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-sword-name: '{color}Iron Sword'
+    content-item-iron-sword-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-sword-name: '{color}Diamond Sword'
+    content-item-diamond-sword-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stick-name: '{color}Stik (Knockback I)'
+    content-item-stick-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  armor-category:
+    inventory-name: '&8Armor'
+    category-item-name: '&aArmor'
+    category-item-lore:
+    - '&eClick to view!'
+    content-item-chainmail-name: '{color}Armor Chainmail Permanenr'
+    content-item-chainmail-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Celana dan sepatu chainmail yang dapat membuat'
+    - '&7kamu akan selalu muncul dengan ini'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-armor-name: '{color}Armor Besi Permanen'
+    content-item-iron-armor-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Celana dan sepatu besi yang dapat membuat'
+    - '&7kamu akan selalu muncul dengan ini.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-armor-name: '{color}Armor Berlian Permanen'
+    content-item-diamond-armor-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Celana dan sepatu berlian yang dapat membuat'
+    - '&7kamu akan selalu naksir dengan ini.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  tools-category:
+    inventory-name: '&8Tools'
+    category-item-name: '&aTools'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-shears-name: '{color}Gunting Permanen'
+    content-item-shears-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Bagus untuk menyingkirkan wol. Kamu'
+    - '&7akan selalu muncul dengan gunting ini.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-pickaxe-name: '{color}Pickaxe {tier}'
+    content-item-pickaxe-lore:
+    - '&7Biaya: {cost} {currency}'
+    - '&7Tingkat: &e{tier}'
+    - ''
+    - '&7Ini adalah item yang dapat diupgrade.'
+    - '&7Itu akan kehilangan 1 tingkat setelah.'
+    - '&7mati!'
+    - ''
+    - '&7Anda akan secara permanen'
+    - '&7respawn dengan setidaknya'
+    - '&7tingkat terendah.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-axe-name: '{color}Kapak {tier}'
+    content-item-axe-lore:
+    - '&7Biaya: {cost} {currency}'
+    - '&7Tingkat: &e{tier}'
+    - ''
+    - '&7Ini adalah item yang dapat diupgrade.'
+    - '&7Itu akan kehilangan 1 tingkat setelah.'
+    - '&7mati!'
+    - ''
+    - '&7Anda akan secara permanen'
+    - '&7respawn dengan setidaknya'
+    - '&7tingkat terendah.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  ranged-category:
+    inventory-name: '&8Senjata Jarak Jauh'
+    category-item-name: '&aSenjata Jarak Jauh'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-arrow-name: '{color}Anak Panah'
+    content-item-arrow-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow1-name: '{color}Panah'
+    content-item-bow1-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow2-name: '{color}Panah (Power I)'
+    content-item-bow2-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow3-name: '{color}Panah (Power I, Punch I)'
+    content-item-bow3-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  potions-category:
+    inventory-name: '&8Ramuan'
+    category-item-name: '&aRamuan'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-speed-potion-name: '{color}Ramuan Kecepatan II (45 detik)'
+    content-item-speed-potion-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-jump-potion-name: '{color}Ramuan Lompat V (45 detik)'
+    content-item-jump-potion-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-invisibility-name: '{color}Ramuan Tak Kasat Mata (30 detik)'
+    content-item-invisibility-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  utility-category:
+    inventory-name: '&8Utilitas'
+    category-item-name: '&aUtilitas'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-golden-apple-name: '{color}Apel Emas'
+    content-item-golden-apple-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Penyembuhan menyeluruh.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bedbug-name: '{color}Kutu Kasur'
+    content-item-bedbug-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Memunculkan ikan gabus di mana'
+    - '&7bola salju mendarat untuk mengalihkan perhatian'
+    - '&7musuh. Berlangsung 15 detik.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-dream-defender-name: '{color}Pertahanan Impian'
+    content-item-dream-defender-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Iron Golem untuk membantu mempertahankan'
+    - '&7base. Berlangsung 4 menit.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-fireball-name: '{color}Bola Api'
+    content-item-fireball-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Klik kanan untuk meluncurkan! Bagus untuk'
+    - '&7memukul mundur musuh yang berjalan'
+    - '&7di jembatan tipis'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tnt-name: '{color}TNT'
+    content-item-tnt-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Langsung menyala, cocok'
+    - '&7untuk meledakkan sesuatu!'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ender-pearl-name: '{color}Ender Pearl'
+    content-item-ender-pearl-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Cara tercepat untuk menyerang base'
+    - '&7musuh.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-water-bucket-name: '{color}Water Bucket'
+    content-item-water-bucket-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Bagus untuk memperlambat musuh.'
+    - '&7Bisa juga melindungi'
+    - '&7dari serangan TNT.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bridge-egg-name: '{color}Telur Jembatan'
+    content-item-bridge-egg-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Telur ini menciptakan jembatan di'
+    - '&7percobaan setelah dilempar.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-magic-milk-name: '{color}Susu Ajaib'
+    content-item-magic-milk-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Hindari memicu jebakan untuk 60'
+    - '&7detik setelah diminum.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-sponge-name: '{color}Spons'
+    content-item-sponge-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Bagus untuk menyerap air.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+shop-insuff-money: '{prefix}&cKamu tidak mempunyai {currency} yang cukup! Butuh {amount}
+  lagi!'
+shop-new-purchase: '{prefix}&aKamu membeli &6{item}'
+shop-already-bought: '{prefix}&cKamu telah membeli itu!!'
+shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
+shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
+shop-lore-status-can-buy: '&eKlik untuk membeli!'
+shop-lore-status-cant-afford: '&cKamu tidak mempunyai {currency} yang cukup!'
+shop-lore-status-tier-maxed: '&aMAKSIMAL!'
+shop-lore-quick-add: '&bJongkok Klik untuk menambahkan ke Beli Cepat!'
+shop-lore-quick-remove: '&bJongkok Klik untuk menhapus dari Beli Cepat!'
+meaning-no-trap: Tidak ada Perangkap!
+format-upgrade-trap-cost: '&7Biaya: {currencyColor}{cost} {currency}'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-lore-click-buy: '{color}Klik untuk membeli!'
+upgrades-lore-insuff-money: '{color}Anda tidak punya {currency} yang cukup!'
+upgrades-lore-locked: '&cTERKUNCI'
+upgrades-lore-unlocked: '{color}TERBUKA'
+upgrades-new-purchase: '&a{player} membeli &6{upgradeName}'
+upgrades-upgrade-name-forge-tier-1: '{color}Iron Forge'
+upgrades-upgrade-lore-forge-tier-1:
+- '&7Tingkatkan pemijahan sumber daya aktif'
+- '&7di pulau mu.'
+- ''
+- '{tierColor}Tingkat 1: +50% Sumber Daya, &b{cost} {currency}'
+- '&7Tingkat 2: +100% Sumber Daya, &b8 Berlian'
+- '&7Tingkat 3: Spawn zamrud, &b12 Berlian'
+- '&7Tingkat 4: +200% Sumber Daya, &b16 Berlian'
+- ''
+upgrades-upgrade-name-forge-tier-2: '{color}Golden Forge'
+upgrades-upgrade-lore-forge-tier-2:
+- '&7Tingkatkan pemijahan sumber daya aktif'
+- '&7di pulau mu.'
+- ''
+- '&aTingkat 1: +50% Sumber Daya, &b{cost} {currency}'
+- '{tierColor}Tingkat 2: +100% Sumber Daya, &b8 Berlian'
+- '&7Tingkat 3: Spawn zamrud, &b12 Berlian'
+- '&7Tingkat 4: +200% Sumber Daya, &b16 Berlian'
+- ''
+upgrades-upgrade-name-forge-tier-3: '{color}Emerald Forge'
+upgrades-upgrade-lore-forge-tier-3:
+- '&7Tingkatkan pemijahan sumber daya aktif'
+- '&7di pulau mu.'
+- ''
+- '&aTingkat 1: +50% Sumber Daya, &b{cost} {currency}'
+- '&aTingkat 2: +100% Sumber Daya, &b8 Berlian'
+- '{tierColor}Tingkat 3: Spawn zamrud, &b12 Berlian'
+- '&7Tingkat 4: +200% Sumber Daya, &b16 Berlian'
+- ''
+upgrades-upgrade-name-forge-tier-4: '{color}Molten Forge'
+upgrades-upgrade-lore-forge-tier-4:
+- '&7Tingkatkan pemijahan sumber daya aktif'
+- '&7di pulau mu.'
+- ''
+- '&aTingkat 1: +50% Sumber Daya, &b{cost} {currency}'
+- '&aTingkat 2: +100% Sumber Daya, &b8 Berlian'
+- '&aTingkat 3: Spawn zamrud, &b12 Berlian'
+- '{tierColor}Tingkat 4: +200% Sumber Daya, &b16 Berlian'
+- ''
+upgrades-category-item-name-traps: '&aBeli perangkap'
+upgrades-category-item-lore-traps:
+- '&7Perangkap yang dibeli akan menjadi'
+- '&7antri di sebelah kanan.'
+- ''
+- '&eKlik untuk menelusuri!'
+upgrades-upgrade-name-swords-tier-1: '{color}Pedang yang Diasah'
+upgrades-upgrade-lore-swords-tier-1:
+- '&7Tim Anda memperoleh keuntungan secara permanen'
+- '&7Ketajaman I pada semua pedang dan'
+- '&7kapak!'
+- ''
+- '&7Biaya: &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '{color}Armor Bertulang I'
+upgrades-upgrade-lore-armor-tier-1:
+- '&7Tim Anda memperoleh keuntungan secara permanen'
+- '&7Perlindungan pada semua bagian armor!'
+- ''
+- '{tierColor}Tingkat 1: Perlindungan I, &b{cost} {currency}'
+- '&7Tingkat 2: Perlindungan II, &b10 Berlian'
+- '&7Tingkat 3: Perlindungan III, &b20 Berlian'
+- '&7Tingkat 4: Perlindungan IV, &b30 Berlian'
+- ''
+upgrades-upgrade-name-armor-tier-2: '{color}Armor Bertulang II'
+upgrades-upgrade-lore-armor-tier-2:
+- '&7Tim Anda memperoleh keuntungan secara permanen'
+- '&7Perlindungan pada semua bagian armor!'
+- ''
+- '&aTingkat 1: Perlindungan I, &b5 Diamonds'
+- '{tierColor}Tingkat 2: Perlindungan II, &b{cost} {currency}'
+- '&7Tingkat 3: Perlindungan III, &b20 Berlian'
+- '&7Tingkat 4: Perlindungan IV, &b30 Berlian'
+- ''
+upgrades-upgrade-name-armor-tier-3: '{color}Armor Bertulang III'
+upgrades-upgrade-lore-armor-tier-3:
+- '&7Tim Anda memperoleh keuntungan secara permanen'
+- '&7Perlindungan pada semua bagian armor!'
+- ''
+- '&aTingkat 1: Perlindungan I, &b5 Diamonds'
+- '&aTingkat 2: Perlindungan II, &b10 Berlian'
+- '{tierColor}Tingkat 3: Perlindungan III, &b{cost} {currency}'
+- '&7Tingkat 4: Perlindungan IV, &b30 Berlian'
+- ''
+upgrades-upgrade-name-armor-tier-4: '{color}Armor Bertulang IV'
+upgrades-upgrade-lore-armor-tier-4:
+- '&7Tim Anda memperoleh keuntungan secara permanen'
+- '&7Perlindungan pada semua bagian armor!'
+- ''
+- '&aTingkat 1: Perlindungan I, &b5 Diamonds'
+- '&aTingkat 2: Perlindungan II, &b10 Berlian'
+- '&aTingkat 3: Perlindungan III, &b20 Berlian'
+- '{tierColor}Tingkat 4: Perlindungan IV, &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-miner-tier-1: '{color}Penambang Maniak I'
+upgrades-upgrade-lore-miner-tier-1:
+- '&7Semua pemain di tim Anda'
+- '&7mendapatkan Haste secara permanen.'
+- ''
+- '{tierColor}Tingkat 1: Haste I, &b{cost} {currency}'
+- '&7Tingkat 2: Haste II, &b6 Berlian'
+- ''
+upgrades-upgrade-name-miner-tier-2: '{color}Penambang Maniak II'
+upgrades-upgrade-lore-miner-tier-2:
+- '&7Semua pemain di tim Anda'
+- '&7mendapatkan Haste secara permanen.'
+- ''
+- '&aTingkat 1: Haste I, &b4 Berlian'
+- '{tierColor}Tingkat 2: Haste II, &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-heal-pool-tier-1: '{color}Kolam Penyembuhan'
+upgrades-upgrade-lore-heal-pool-tier-1:
+- '&7Membuat bidang Regenerasi'
+- '&7di sekitar base Anda!'
+- ''
+- '&7Biaya: &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
+upgrades-upgrade-lore-dragon-tier-1:
+- '&7Tim Anda akan memiliki 2 naga'
+- '&7bukannya 1 selama deathmatch!'
+- ''
+- '&7Biaya: &b{cost} {currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Dapat Dibeli'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Antrian Perangkap'
+upgrades-trap-slot-item-name-first: '{color}Perangkap #1: {name}'
+upgrades-trap-slot-item-lore1-first:
+- '&7Musuh pertama yang berjalan'
+- '&7ke base Anda akan memicu'
+- '&7perangkap ini!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7Membeli perangkap akan'
+- '&7antri disini. biayanya'
+- '&7akan skala berdasarkan'
+- '&7jumlah jebakan yang diantrekan.'
+- ''
+- '&7Perangkap Selanjutnya: &b{cost} {currency}'
+upgrades-trap-slot-item-name-second: '{color}Perangkap #2: {name}'
+upgrades-trap-slot-item-lore1-second:
+- '&7Musuh kedua yang berjalan'
+- '&7ke base Anda akan memicu'
+- '&7perangkap ini!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7Membeli perangkap akan'
+- '&7antri disini. biayanya'
+- '&7akan skala berdasarkan'
+- '&7jumlah jebakan yang diantrekan.'
+- ''
+- '&7Perangkap Selanjutnya: &b{cost} {currency}'
+upgrades-trap-slot-item-name-third: '{color}Perangkap #3: {name}'
+upgrades-trap-slot-item-lore1-third:
+- '&7Musuh ketiga yang berjalan'
+- '&7ke base Anda akan memicu'
+- '&7perangkap ini!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7Membeli perangkap akan'
+- '&7antri disini. biayanya'
+- '&7akan skala berdasarkan'
+- '&7jumlah jebakan yang diantrekan.'
+- ''
+- '&7Perangkap Selanjutnya: &b{cost} {currency}'
+upgrades-base-trap-name-1: '{color}It''s a trap!'
+upgrades-base-trap-lore-1:
+- '&7Menimbulkan Kebutaan dan Kelambatan'
+- '&7selama 5 detik.'
+- ''
+upgrades-base-trap-name-2: '{color}Counter-Offensive Trap'
+upgrades-base-trap-lore-2:
+- '&7Memberikan Kecepatan I selama 15 detik untuk'
+- '&7pemain sekutu di dekat base Anda.'
+- ''
+upgrades-base-trap-name-3: '{color}Alarm Trap'
+upgrades-base-trap-lore-3:
+- '&7Mengungkapkan pemain tak terlihat serta'
+- '&7nama dan tim mereka.'
+- ''
+upgrades-base-trap-name-4: '{color}Perangkap Kelelahan Penambang'
+upgrades-base-trap-lore-4:
+- '&7Menimbulkan Kelelahan Penambangan selama 10'
+- '&7detik.'
+- ''
+upgrades-separator-item-name-back: '&aKembali'
+upgrades-separator-item-lore-back:
+- '&7Ke Upgrades & Perangkap'
+upgrades-category-gui-name-traps: '&8Antrian Jebakan'
+upgrades-trap-queue-full: '&cAntrian jebakan penuh!'
+upgrades-trap-default-msg: '&c&l{trap} telah berangkat!'
+upgrades-trap-default-title: '&cPERANGKAP TERPICU!'
+upgrades-trap-default-subtitle: '&fPerangkap {trap} telah terpicu!'
+upgrades-base-trap-msg-3: '&c&lPerangkap alarm telah dipicu oleh &7&l{player} &c&ldari
+  tim {color}&l{team}!'
+upgrades-base-trap-title-3: '&c&lALARM!!!'
+upgrades-base-trap-subtitle-3: '&fPerangkap alarm telah dipicu oleh tim {color}{team}&f!'
+lobby-items-QuickPlay-name: '&cName not set at: &flobby-items-QuickPlay-name'
+pre-game-items-forcestart-name: '&cName not set at: &fpre-game-items-forcestart-name'
+addons:
+  win-streak:
+    player-streak: '&7Your winning streak is {STREAK}'
+    player-best-streak: '&7Your best winning streak is {BEST_STREAK}'
+    unknown-player: '&c{PLAYER} is not online.'
+    not-valid-number: '&c{NUMBER} not a valid number.'
+    not-enough-streak: '&c{PLAYER} not enough streaks. Has {WIN_STREAK} Win Streak'
+    successfully-added: '&7{AMOUNT} streaks has been added to {PLAYER}. {PLAYER} has
+      {WIN_STREAK} Win Streak'
+    successfully-removed: '&7{AMOUNT} streaks has been removed to {PLAYER}. {PLAYER}
+      has {WIN_STREAK} Win Streak'
+    successfully-set: '&7{PLAYER} now has {WIN_STREAK} Win Streak'
+    successfully-reset: '&7You''ve reset {PLAYER} Win Streak to 0'
+  compass:
+    messages:
+      not-all-beds-destroyed: '&cNot all enemy beds are destroyed yet!'
+      purchase-message: '&cYou will lose the ability to track this team when you die!'
+      not-enough-resource: '&cYou don''t have enough resources!'
+      already-tracking: '&cYou are already tracking this team!'
+    tracker-status:
+      not-enough: '&cYou don''t have enough resource!'
+      locked: '&cUnlocks when all enemy beds are destroyed!'
+      unlocked: '&eClick to purchase!'
+    action-bar:
+      tracking-format: '&fTracking: {teamColor}&l{target} &f- Distance: &a&l{distance}m'
+    team-message-format: '&a&lTEAM > &7{player}: {message}'
+    compass-item:
+      display-name: '&aCompass &7(Right Click)'
+      lore: []
+    tracker-shop:
+      display-name: '&aTracker Shop'
+      lore:
+      - '&7Purchase tracking update for'
+      - '&7your compass which will track'
+      - '&7each player on a specific team'
+      - '&7until you die.'
+    menus:
+      main-menu:
+        title: '&8Tracker & Communications'
+        tracker:
+          display-name: '&aTracker Shop'
+          lore:
+          - '&7Purchase tracking upgrade'
+          - '&7for your compass which will'
+          - '&7track each player on a'
+          - '&7specific team until you'
+          - '&7die.'
+          - ''
+          - '&eClick to open!'
+        tracker-team:
+          display-name: '&aTracker Shop'
+          lore:
+          - '&7Purchase tracking upgrade'
+          - '&7for your compass which will'
+          - '&7track each player on a'
+          - '&7specific team until you'
+          - '&7die.'
+          - ''
+          - '&eClick to open!'
+        communications:
+          display-name: '&aQuick Communications'
+          lore:
+          - '&7Send highlighted chat'
+          - '&7messages to your teammates!'
+          - ''
+          - '&eClick to open!'
+      tracker-menu:
+        title: '&8Purchase Enemy Tracker'
+        team-item:
+          display-name: '&cTrack Team {team}'
+          lore:
+          - '&7Purchase tracking upgrade'
+          - '&7for your compass which will'
+          - '&7track each player on a'
+          - '&7specific team until you'
+          - '&7die.'
+          - ''
+          - '&7Cost: &22 Emeralds'
+          - ''
+          - '{status}'
+        back-item:
+          display-name: '&aGo Back'
+          lore:
+          - '&7To Tracker & Communication'
+      communications:
+        title: '&8Quick Communications'
+        back-item:
+          display-name: '&aGo Back'
+          lore:
+          - '&7To Tracker & Communication'
+        items:
+          '1':
+            message: '&aHello ( ﾟ◡ﾟ)/!'
+            display-name: '&aHello ( ﾟ◡ﾟ)/!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '2':
+            message: '&aI''m coming back to base!'
+            display-name: '&aI''m coming back to base!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '3':
+            message: '&aI''m defending!'
+            display-name: '&aI''m defending!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '4':
+            message: '&aI''''m attacking {team}'
+            display-name: '&aI''m attacking!'
+            lore:
+            - '&7You will be able to select'
+            - '&7the Team'
+            - ''
+            - '&eClick to send!'
+          '5':
+            message: '&aI''m collecting {resource}'
+            display-name: '&aI''m collecting resources!'
+            lore:
+            - '&7You will be able to select'
+            - '&7the Resource'
+            - ''
+            - '&eClick to send!'
+          '6':
+            message: '&aI have {resource}'
+            display-name: '&aI have resources!'
+            lore:
+            - '&7You will be able to select'
+            - '&7the Resource'
+            - ''
+            - '&eClick to send!'
+          '7':
+            message: '&aThank You'
+            display-name: '&aThank You!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '8':
+            message: '&aGet back to base'
+            display-name: '&aGet back to base!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '9':
+            message: '&aPlease defend!'
+            display-name: '&aPlease defend!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '10':
+            message: '&aLet''s attack {team}'
+            display-name: '&aLet''s attack!'
+            lore:
+            - '&7You will be able to select'
+            - '&7the Team'
+            - ''
+            - '&eClick to send!'
+          '11':
+            message: '&aWe need {resource}'
+            display-name: '&aWe need resources!'
+            lore:
+            - '&7You will be able to select'
+            - '&7the Resource'
+            - ''
+            - '&eClick to send!'
+          '12':
+            message: '&aPlayer incoming!'
+            display-name: '&aPlayer incoming!!'
+            lore:
+            - ''
+            - '&eClick to send!'
+    communication-menus:
+      lore:
+      - '&7Click to send message: ''{message}&7'''
+      - '&7to your teammates!'
+      - ''
+      - '&eClick to send!'
+      teams:
+        title: '&8Select an option:'
+        back-item:
+          display-name: '&aGo Back'
+          lore:
+          - '&7To Quick Communications'
+      resources:
+        title: '&8Select an option:'
+        back-item:
+          display-name: '&aGo Back'
+          lore:
+          - '&7To Quick Communications'
+        iron:
+          resource-name: '&f&lIRON'
+        gold:
+          resource-name: '&6&lGOLD'
+        diamond:
+          resource-name: '&b&lDIAMOND'
+        emerald:
+          resource-name: '&2&lEMERALD'
+  team-selector:
+    inventory-name: '&8Team Selector'
+    selector-name: '&9Team Selector'
+    selector-lore:
+    - '&7Right-Click to to open!'
+    choice:
+      lore:
+      - ''
+      - '&7&o{members}'
+      - ''
+      - '&eClick to join!'
+      name: '{color}{team} &f({selected}&7/&f{total})'
+    switch-disabled: '{prefix}&cYou cannot change your team!'
+    team-join: '{prefix}&eYou joined the {color}{team} &eteam!'
+    team-full: '{prefix}{color}{team} &c Team is full!'
+    teams-not-balanced: '{prefix}&cTeams are not balanced! Try joining another team!'
+    party-deny: '{prefix}&cYou can''t choose your team because you''re in a party!'
+    cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
+      The game is starting!'
+    already-in-team: '{prefix}&cYou are already in this team!'
+lobby-items-mycosmetics-name: '&cName not set at: &flobby-items-mycosmetics-name'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
+display-group-default: Default
+team-name-squads-ashore-Red: Red
+team-name-squads-ashore-Blue: Blue
+team-name-squads-ashore-Yellow: Yellow
+team-name-squads-ashore-Green: Green
+team-name-squads-catalyst-Red: Red
+team-name-squads-catalyst-Blue: Blue
+team-name-squads-catalyst-Yellow: Yellow
+team-name-squads-catalyst-Green: Green
+team-name-solo-amazon-Red: Red
+team-name-solo-amazon-Blue: Blue
+team-name-solo-amazon-Green: Green
+team-name-solo-amazon-Yellow: Yellow
+team-name-solo-amazon-Aqua: Aqua
+team-name-solo-amazon-White: White
+team-name-solo-amazon-Pink: Pink
+team-name-solo-amazon-Gray: Gray
+team-name-doubles-ashfire-Gray: Gray
+team-name-doubles-ashfire-Pink: Pink
+team-name-doubles-ashfire-White: White
+team-name-doubles-ashfire-Aqua: Aqua
+team-name-doubles-ashfire-Red: Red
+team-name-doubles-ashfire-Yellow: Yellow
+team-name-doubles-ashfire-Blue: Blue
+team-name-doubles-ashfire-Green: Green
+team-name-solo-airshow-Gray: Gray
+team-name-solo-airshow-Pink: Pink
+team-name-solo-airshow-Yellow: Yellow
+team-name-solo-airshow-White: White
+team-name-solo-airshow-Red: Red
+team-name-solo-airshow-Green: Green
+team-name-solo-airshow-Aqua: Aqua
+team-name-solo-airshow-Blue: Blue
+team-name-doubles-egghunt-Aqua: Aqua
+team-name-doubles-egghunt-Gray: Gray
+team-name-doubles-egghunt-White: White
+team-name-doubles-egghunt-Pink: Pink
+team-name-doubles-egghunt-Green: Green
+team-name-doubles-egghunt-Red: Red
+team-name-doubles-egghunt-Yellow: Yellow
+team-name-doubles-egghunt-Blue: Blue
+team-name-doubles-amazon-Red: Red
+team-name-doubles-amazon-Blue: Blue
+team-name-doubles-amazon-Green: Green
+team-name-doubles-amazon-Yellow: Yellow
+team-name-doubles-amazon-Aqua: Aqua
+team-name-doubles-amazon-White: White
+team-name-doubles-amazon-Pink: Pink
+team-name-doubles-amazon-Gray: Gray
+team-name-squads-chained-Green: Green
+team-name-squads-chained-Yellow: Yellow
+team-name-squads-chained-Blue: Blue
+team-name-squads-chained-Red: Red
+team-name-trios-catalyst-Red: Red
+team-name-trios-catalyst-Blue: Blue
+team-name-trios-catalyst-Yellow: Yellow
+team-name-trios-catalyst-Green: Green
+team-name-trios-congress-Red: Red
+team-name-trios-congress-Blue: Blue
+team-name-trios-congress-Green: Green
+team-name-trios-congress-Yellow: Yellow
+team-name-doubles-lighthouse-Gray: Gray
+team-name-doubles-lighthouse-Pink: Pink
+team-name-doubles-lighthouse-Red: Red
+team-name-doubles-lighthouse-White: White
+team-name-doubles-lighthouse-Blue: Blue
+team-name-doubles-lighthouse-Aqua: Aqua
+team-name-doubles-lighthouse-Green: Green
+team-name-doubles-lighthouse-Yellow: Yellow
+team-name-squads-carapace-Yellow: Yellow
+team-name-squads-carapace-Green: Green
+team-name-squads-carapace-Red: Red
+team-name-squads-carapace-Blue: Blue
+team-name-squads-cauldron-Green: Green
+team-name-squads-cauldron-Yellow: Yellow
+team-name-squads-cauldron-Blue: Blue
+team-name-squads-cauldron-Red: Red
+team-name-solo-dragonstar-Gray: Gray
+team-name-solo-dragonstar-Pink: Pink
+team-name-solo-dragonstar-Red: Red
+team-name-solo-dragonstar-White: White
+team-name-solo-dragonstar-Blue: Blue
+team-name-solo-dragonstar-Aqua: Aqua
+team-name-solo-dragonstar-Green: Green
+team-name-solo-dragonstar-Yellow: Yellow
+team-name-trios-ashore-Red: Red
+team-name-trios-ashore-Blue: Blue
+team-name-trios-ashore-Yellow: Yellow
+team-name-trios-ashore-Green: Green
+team-name-trios-chained-Green: Green
+team-name-trios-chained-Yellow: Yellow
+team-name-trios-chained-Blue: Blue
+team-name-trios-chained-Red: Red
+team-name-squads-forest-Red: Red
+team-name-squads-forest-Blue: Blue
+team-name-squads-forest-Yellow: Yellow
+team-name-squads-forest-Green: Green
+team-name-solo-speedway-Gray: Gray
+team-name-solo-speedway-Pink: Pink
+team-name-solo-speedway-White: White
+team-name-solo-speedway-Red: Red
+team-name-solo-speedway-Aqua: Aqua
+team-name-solo-speedway-Yellow: Yellow
+team-name-solo-speedway-Blue: Blue
+team-name-solo-speedway-Green: Green
+team-name-trios-cauldron-Green: Green
+team-name-trios-cauldron-Yellow: Yellow
+team-name-trios-cauldron-Blue: Blue
+team-name-trios-cauldron-Red: Red
+team-name-trios-carapace-Yellow: Yellow
+team-name-trios-carapace-Green: Green
+team-name-trios-carapace-Red: Red
+team-name-trios-carapace-Blue: Blue
+team-name-squads-boletum-Red: Red
+team-name-squads-boletum-Blue: Blue
+team-name-squads-boletum-Green: Green
+team-name-squads-boletum-Yellow: Yellow
+team-name-squads-congress-Red: Red
+team-name-squads-congress-Blue: Blue
+team-name-squads-congress-Green: Green
+team-name-squads-congress-Yellow: Yellow
+team-name-solo-zarzul-Pink: Pink
+team-name-solo-zarzul-White: White
+team-name-solo-zarzul-Gray: Gray
+team-name-solo-zarzul-Aqua: Aqua
+team-name-solo-zarzul-Red: Red
+team-name-solo-zarzul-Yellow: Yellow
+team-name-solo-zarzul-Blue: Blue
+team-name-solo-zarzul-Green: Green
+team-name-doubles-hollow-Gray: Gray
+team-name-doubles-hollow-Pink: Pink
+team-name-doubles-hollow-Red: Red
+team-name-doubles-hollow-White: White
+team-name-doubles-hollow-Blue: Blue
+team-name-doubles-hollow-Aqua: Aqua
+team-name-doubles-hollow-Green: Green
+team-name-doubles-hollow-Yellow: Yellow
+team-name-trios-temple-Red: Red
+team-name-trios-temple-Green: Green
+team-name-trios-temple-Yellow: Yellow
+team-name-trios-temple-Blue: Blue
+team-name-doubles-zarzul-Pink: Pink
+team-name-doubles-zarzul-White: White
+team-name-doubles-zarzul-Gray: Gray
+team-name-doubles-zarzul-Aqua: Aqua
+team-name-doubles-zarzul-Red: Red
+team-name-doubles-zarzul-Yellow: Yellow
+team-name-doubles-zarzul-Blue: Blue
+team-name-doubles-zarzul-Green: Green
+team-name-doubles-easterbasket-Pink: Pink
+team-name-doubles-easterbasket-White: White
+team-name-doubles-easterbasket-Aqua: Aqua
+team-name-doubles-easterbasket-Gray: Gray
+team-name-doubles-easterbasket-Red: Red
+team-name-doubles-easterbasket-Yellow: Yellow
+team-name-doubles-easterbasket-Green: Green
+team-name-doubles-easterbasket-Blue: Blue
+team-name-doubles-dragonstar-Gray: Gray
+team-name-doubles-dragonstar-Pink: Pink
+team-name-doubles-dragonstar-Red: Red
+team-name-doubles-dragonstar-White: White
+team-name-doubles-dragonstar-Blue: Blue
+team-name-doubles-dragonstar-Aqua: Aqua
+team-name-doubles-dragonstar-Green: Green
+team-name-doubles-dragonstar-Yellow: Yellow
+team-name-solo-easterbasket-Pink: Pink
+team-name-solo-easterbasket-White: White
+team-name-solo-easterbasket-Aqua: Aqua
+team-name-solo-easterbasket-Gray: Gray
+team-name-solo-easterbasket-Red: Red
+team-name-solo-easterbasket-Yellow: Yellow
+team-name-solo-easterbasket-Green: Green
+team-name-solo-easterbasket-Blue: Blue
+team-name-doubles-waterfall-Gray: Gray
+team-name-doubles-waterfall-Pink: Pink
+team-name-doubles-waterfall-White: White
+team-name-doubles-waterfall-Red: Red
+team-name-doubles-waterfall-Aqua: Aqua
+team-name-doubles-waterfall-Blue: Blue
+team-name-doubles-waterfall-Green: Green
+team-name-doubles-waterfall-Yellow: Yellow
+team-name-trios-boletum-Red: Red
+team-name-trios-boletum-Blue: Blue
+team-name-trios-boletum-Green: Green
+team-name-trios-boletum-Yellow: Yellow
+team-name-solo-egghunt-Aqua: Aqua
+team-name-solo-egghunt-Gray: Gray
+team-name-solo-egghunt-White: White
+team-name-solo-egghunt-Pink: Pink
+team-name-solo-egghunt-Green: Green
+team-name-solo-egghunt-Red: Red
+team-name-solo-egghunt-Yellow: Yellow
+team-name-solo-egghunt-Blue: Blue
+team-name-doubles-speedway-Gray: Gray
+team-name-doubles-speedway-Pink: Pink
+team-name-doubles-speedway-White: White
+team-name-doubles-speedway-Red: Red
+team-name-doubles-speedway-Aqua: Aqua
+team-name-doubles-speedway-Yellow: Yellow
+team-name-doubles-speedway-Blue: Blue
+team-name-doubles-speedway-Green: Green
+team-name-solo-hollow-Gray: Gray
+team-name-solo-hollow-Pink: Pink
+team-name-solo-hollow-Red: Red
+team-name-solo-hollow-White: White
+team-name-solo-hollow-Blue: Blue
+team-name-solo-hollow-Aqua: Aqua
+team-name-solo-hollow-Green: Green
+team-name-solo-hollow-Yellow: Yellow
+team-name-doubles-airshow-Gray: Gray
+team-name-doubles-airshow-Pink: Pink
+team-name-doubles-airshow-Yellow: Yellow
+team-name-doubles-airshow-White: White
+team-name-doubles-airshow-Red: Red
+team-name-doubles-airshow-Green: Green
+team-name-doubles-airshow-Aqua: Aqua
+team-name-doubles-airshow-Blue: Blue
+team-name-trios-landscape-Red: Red
+team-name-trios-landscape-Blue: Blue
+team-name-trios-landscape-Yellow: Yellow
+team-name-trios-landscape-Green: Green
+team-name-solo-lighthouse-Gray: Gray
+team-name-solo-lighthouse-Pink: Pink
+team-name-solo-lighthouse-Red: Red
+team-name-solo-lighthouse-White: White
+team-name-solo-lighthouse-Blue: Blue
+team-name-solo-lighthouse-Aqua: Aqua
+team-name-solo-lighthouse-Green: Green
+team-name-solo-lighthouse-Yellow: Yellow
+team-name-solo-ashfire-Gray: Gray
+team-name-solo-ashfire-Pink: Pink
+team-name-solo-ashfire-White: White
+team-name-solo-ashfire-Aqua: Aqua
+team-name-solo-ashfire-Red: Red
+team-name-solo-ashfire-Yellow: Yellow
+team-name-solo-ashfire-Blue: Blue
+team-name-solo-ashfire-Green: Green
+team-name-squads-archway-Yellow: Yellow
+team-name-squads-archway-Red: Red
+team-name-squads-archway-Green: Green
+team-name-squads-archway-Blue: Blue
+team-name-squads-aquarium-Green: Green
+team-name-squads-aquarium-Blue: Blue
+team-name-squads-aquarium-Yellow: Yellow
+team-name-squads-aquarium-Red: Red
+team-name-trios-swashbuckle-Yellow: Yellow
+team-name-trios-swashbuckle-Red: Red
+team-name-trios-swashbuckle-Green: Green
+team-name-trios-swashbuckle-Blue: Blue
+team-name-solo-waterfall-Gray: Gray
+team-name-solo-waterfall-Pink: Pink
+team-name-solo-waterfall-White: White
+team-name-solo-waterfall-Red: Red
+team-name-solo-waterfall-Aqua: Aqua
+team-name-solo-waterfall-Blue: Blue
+team-name-solo-waterfall-Green: Green
+team-name-solo-waterfall-Yellow: Yellow
+display-group-doubles: Doubles
+display-group-solo: Solo
+display-group-trios: Trios
+display-group-squads: Squads
+team-name-stifte1v1-2v2-Blue: Blue
+team-name-stifte1v1-2v2-Red: Red
+team-name-stifte1v1-2v2-blue: blue
+team-name-stifte1v1-2v2-red: red
+team-name-stifte-2v2-blue: blue
+team-name-stifte-2v2-red: red

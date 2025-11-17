@@ -1,0 +1,67 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 8
+npc:
+  '8':
+    metadata:
+      cached-skin-uuid: b65a2263-5ee5-4bdf-ad8a-76c1c375c894
+      protected: true
+      cached-skin-uuid-name: king_hd_
+    name: ''
+    uuid: 225ddd9b-6a54-4d42-857d-b7d1111c102f
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: 1.4861145
+        world: world
+        x: '2.5284'
+        y: '52.0'
+        z: '-19.305'
+        yaw: '1.4861'
+        pitch: '-0.45'
+      scoreboardtrait: {}
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ECXvEvMj2/KBwIhxsnE/dYgeTIQTr6vYunPdwws9Kbj8aBoAKXmO4UYrXJjJZjggPYQ7WSV068Jpj7YkQZd1JG09nKAHhw7uecO+Eq/VxjGjTUO5alIJk56CLgkEAoNFpLX8zdAbbE7ix8wpdSFvYs09XFO4tfRidYblgUhnY1qqmgw+2Lb8wzPolu6uqrHiY0rk0mLacLFmDNqYd9QsDP8+Gq9k4gbhc9toXtDpM69bJXfe7tuEOLnLYnPjCzy8R5mgrozECh3QrYwsef/6cM1sQbOVv/8sDkCNfsh7EGgdz8QdZXLJCAZmj0GloL46uxR6eMKMk2OPO0Gh7FsaGR7QSGTd2/R/jU6Q0zxS6zQ2WvxDhoCTalPtaiquDC0oYVOwT8oTduknTyTYwk0DRPaqzKaY9/8LTOzvba1QEWSXBl1Y+eGyL3/ZzsGXXcm+Mdkv2mj443uYGNuTzVgh7OipspRiqFrvC0J88HtBoWC4QepEXlx+tDNUBboACeEuXpt8MoI8nclGv2k4+SGCNYNaoBXj/mUxctekj5pCKGNQ15F872PsuOYO4RZl1Got/mLaNihDXXTrzgHyp6eUMtxe/n1oCN+7lfSnOojKkY1LLWkiw8Ta866Wyx3vWgAzPrRpoLBytt66D0fmlhsVql+Se6QFY1P5f2LckhbXZfM=
+        skinName: king_hd_
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc2MzM3MDAyMTI4MSwKICAicHJvZmlsZUlkIiA6ICJiNjVhMjI2MzVlZTU0YmRmYWQ4YTc2YzFjMzc1Yzg5NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaW5nX0hEXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MjY2NTQ3ODc1OGI1YzJjNjQ3YjY5YzU1YmFlMjY4NWZhY2Q4MDlhZDRiZTEyZWI1NjJmZWRmOTVmY2QzYjQ4IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      inventory: {}
+    traitnames: type,mounttrait,inventory,spawned,location,scoreboardtrait,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    metadata:
+      cached-skin-uuid: b65a2263-5ee5-4bdf-ad8a-76c1c375c894
+      protected: true
+      cached-skin-uuid-name: king_hd_
+    name: ''
+    uuid: cf80e531-8407-44c5-b3fc-5584e860c69f
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: -0.013797944
+        world: world
+        x: '-6.6134'
+        y: '52.0'
+        z: '-19.3116'
+        yaw: '-0.0138'
+        pitch: '-2.1'
+      scoreboardtrait: {}
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ECXvEvMj2/KBwIhxsnE/dYgeTIQTr6vYunPdwws9Kbj8aBoAKXmO4UYrXJjJZjggPYQ7WSV068Jpj7YkQZd1JG09nKAHhw7uecO+Eq/VxjGjTUO5alIJk56CLgkEAoNFpLX8zdAbbE7ix8wpdSFvYs09XFO4tfRidYblgUhnY1qqmgw+2Lb8wzPolu6uqrHiY0rk0mLacLFmDNqYd9QsDP8+Gq9k4gbhc9toXtDpM69bJXfe7tuEOLnLYnPjCzy8R5mgrozECh3QrYwsef/6cM1sQbOVv/8sDkCNfsh7EGgdz8QdZXLJCAZmj0GloL46uxR6eMKMk2OPO0Gh7FsaGR7QSGTd2/R/jU6Q0zxS6zQ2WvxDhoCTalPtaiquDC0oYVOwT8oTduknTyTYwk0DRPaqzKaY9/8LTOzvba1QEWSXBl1Y+eGyL3/ZzsGXXcm+Mdkv2mj443uYGNuTzVgh7OipspRiqFrvC0J88HtBoWC4QepEXlx+tDNUBboACeEuXpt8MoI8nclGv2k4+SGCNYNaoBXj/mUxctekj5pCKGNQ15F872PsuOYO4RZl1Got/mLaNihDXXTrzgHyp6eUMtxe/n1oCN+7lfSnOojKkY1LLWkiw8Ta866Wyx3vWgAzPrRpoLBytt66D0fmlhsVql+Se6QFY1P5f2LckhbXZfM=
+        skinName: king_hd_
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc2MzM3MDAyMTI4MSwKICAicHJvZmlsZUlkIiA6ICJiNjVhMjI2MzVlZTU0YmRmYWQ4YTc2YzFjMzc1Yzg5NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaW5nX0hEXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MjY2NTQ3ODc1OGI1YzJjNjQ3YjY5YzU1YmFlMjY4NWZhY2Q4MDlhZDRiZTEyZWI1NjJmZWRmOTVmY2QzYjQ4IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      inventory: {}
+    traitnames: type,mounttrait,inventory,spawned,location,scoreboardtrait,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

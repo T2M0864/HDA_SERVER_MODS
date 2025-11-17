@@ -1,0 +1,1550 @@
+# Translation by Alijk#2951
+prefix: ''
+name: Persian
+cmd-main-list:
+- ''
+- '&2▪ &7/bw stats'
+- '&2▪ &7/bw join &o<arena/group>'
+- '&2▪ &7/bw leave'
+- '&2▪ &7/bw lang'
+- '&2▪ &7/bw gui'
+- '&2▪ &7/bw start &3(vip)'
+cmd-lang-list-header: '{prefix} &2Zaban haye mojood:'
+cmd-lang-list-format: '&a▪  &7{iso} - &f{name}'
+cmd-lang-usage: '{prefix}&7Ravesh Estefade: /lang &f&o<iso>'
+cmd-lang-not-exist: '{prefix}&cIn zaban vojood nadarad!'
+cmd-lang-set: '{prefix}&aZaban taghir kard!'
+cmd-lang-not-set: '{prefix}&cShoma nemitavanid hengami ke dar game hastid zaban ra
+  agvaz konid.'
+cmd-join-usage: '§a▪ §7Ravesh Estefade: /bw join §o<arena/group>'
+cmd-join-not-found: '{prefix}&cHich arena ya arena group i be in nam vojood nadarad:
+  {name}'
+cmd-join-arena-full: |-
+  {prefix}&cIn arena por shode!
+  &aBaraye dashtan ghabeliat haye bishtar mitoonid ma ro donate konid. &7&o(click)
+cmd-join-arenas-full: '{prefix}&cHich arena i dar hale hazer khali nist ;('
+cmd-join-arena-full-vips: |-
+  {prefix}&cMotasefane arena mored nazar por shode.
+  &cMa midoonim ke shoma donor hastid ama in arena az ghabl ba staff/donor ha por shode.
+cmd-join-party-big: '{prefix}&cTedad afradi ke dar party shoma hastand monaseb in
+  arena nist :('
+cmd-join-not-leader: '{prefix}&cFaghat saheb party emkan entekhab arena dare.'
+cmd-join-success: '{prefix}&7{player} &evared shod (&b{on}&e/&b{max}&e)!'
+cmd-join-spectate: |-
+  {prefix}§6Shoma darhale spectate kardan §9{arena} §6hastid.
+  {prefix}§eBaraye kharej shodan az arena az §c/leave §eestefade konid.
+cmd-join-spectate-denied: '&cEmkan vared shodan spectator be in arena vojood nadarad!'
+cmd-tp-player-not-found: '{prefix}&cPlayer peida nashod!'
+cmd-tp-not-in-arena: '{prefix}&cIn player dar yek arena bedwars nist!'
+cmd-tp-not-started: '{prefix}&cArena i ke player dakhelesh hast hanooz start nashode!'
+cmd-tp-usage: '{prefix}&cRavesh estefade: /bw tp <username>'
+cmd-rejoin-no-arena: '{prefix}&cArena baraye mojadadan vared shodan mojood nist!'
+cmd-rejoin-denied: '{prefix}&cShoma dige nemitoonid mojadadan vared arena beshid.
+  Bazi tamoom ya hazf shode.'
+cmd-rejoin-allowed: '{prefix}&eDarhale vorood be arena &a{arena}&e!'
+cmd-rejoin-player-reconnected: '{prefix}&7{player} &emojadadan vared shod!'
+cmd-not-in-arena: '{prefix}&cShoma dar arena nistid!'
+cmd-leave: '{prefix}&7{player} &ekharej shod!'
+cmd-blocked-in-game: '{prefix}&cShoma nemitavanid inkar ra zamani ke dar game hastid
+  anjam dahid.'
+cmd-not-found: '{prefix}&cCommand yaft nashod ya shoma dastresi lazem ro nadarid!'
+cmd-party-help:
+- '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&aDastoorat Party:'
+- '&e/party help &7- &bPayam help (hamin payam) ra neshan midahad'
+- '&e/party invite <player> &7- &bInvite dadan be player mored nazar'
+- '&e/party leave &7- &bKharej shodan az party feli'
+- '&e/party remove <player> &7- &bHazf player az party'
+- '&e/party accept <player> &7- &bGhabool kardan yek invite'
+- '&e/party disband &7- &bAz bein bordan party'
+cmd-party-invite-usage: '{prefix}&eRavesh Estefade: &7/party invite <player>'
+cmd-party-offline: '{prefix}&7{player} &eoffline hast!'
+cmd-party-invite: '{prefix}&eInvite be &7{player} &eersal shod&6.'
+cmd-party-invite-received: '{prefix}&b{player} &eshoma ro be party davat karde! &o&7(Baraye
+  ghabool kardan click inja konid)'
+cmd-party-invite-self: '{prefix}&cShoma nemitoonid khodetoon ro invite bedi!'
+cmd-party-no-invite: '{prefix}&cHich darkhast party i baraye ghabool kardan vojood
+  nadare'
+cmd-party-already-in: '{prefix}&eShoma darhale hazer dar yek party hastid!'
+cmd-party-no-perm: '{prefix}&cFaghat saheb party emkan in kar ro dare!'
+cmd-party-accept-usage: '{prefix}&eRavesh Estefade: &7/party accept <player>'
+cmd-party-join: '{prefix}&7{player} &evared party shod!'
+cmd-party-not-in: '{prefix}&cShoma dar party nistid!'
+cmd-party-cant-leave: |-
+  {prefix}&cShoma nemitoonid az party khodetoon leave bedi!
+  &eDastoor baraye hazf party: &b/party disband
+cmd-party-leave: '{prefix}&7{player} &eaz party kharej shod!'
+cmd-party-disband: '{prefix}&eParty az bein raft!'
+cmd-party-remove-usage: '{prefix}&7Ravesh Estefade: &e/party remove <player>'
+cmd-party-remove: '{prefix}&7{player} &eaz party hazf shod,'
+cmd-party-remove-not-in: '{prefix}&7{player} &edakhel party shoma nist!'
+cmd-start-no-game: §c▪ §7Shoma bazi nemikonid!
+cmd-start: §c▪ §7Shomaresh makoos kootah shod!
+cmd-start-no-perm: |-
+  {prefix}&7Shoma nemitavanid in arena ro forcestart konid.
+  §7Lotfan baraye daryaft ghabeliat haye vizhe server ro donate konid.
+cmd-cooldown: '&cShoma hanooz nemitoonid in kar ro anjam bedid! Lotfan {seconds} sanie
+  sabr konid!'
+arena-kicked-by-vip: |-
+  {prefix}&cMotasefane shoma bedalil vorood yek donor be arena kick shodid.
+  &aLotfan baraye daryaft ghabeliat haye vizhe server ro donate konid. &7&o(click)
+arena-countdown-stopped: '{prefix}§cPlayer ha baraye shoroo kafi nistand! Shomaresh
+  makoos motevaghef shod!'
+arena-restart-kick: '{prefix}&eArena i ke shoma dakhelesh budid dar hale rah andazi
+  mojadad hast.'
+arena-status-playing: '&cDakhel Bazi'
+arena-status-restarting: '&4Darhal Restart'
+arena-status-waiting: '&2Dar Entezar §c{full}'
+arena-status-starting: '&6Darhale Shoroo §c{full}'
+arena-selector-gui-name: '&8Baraye vared shodan click konid'
+arena-selector-content-name: '&a&l{name}'
+arena-selector-content-lore:
+- ''
+- '&7Halat: {status}'
+- '&7Player Ha: &f{on}&7/&f{max}'
+- '&7No: &a{group}'
+- ''
+- '&aBaraye vared shodan Left-Click konid.'
+- '&eBaraye spectate kardan Right-Click konid.'
+arena-selector-skipped-item-name: '&r{serverIp}'
+arena-selector-skipped-item-lore: []
+arena-start-countdown: '{prefix}&eBazi dar &6{time} &esanie digar shoro khahad shod.'
+arena-start-countdown-title: ' '
+arena-start-countdown-subtitle: '&a{second}'
+arena-start-countdown-subtitle-5: '&e❺'
+arena-start-countdown-subtitle-4: '&e❹'
+arena-start-countdown-subtitle-3: '&c❸'
+arena-start-countdown-subtitle-2: '&c❷'
+arena-start-countdown-subtitle-1: '&c❶'
+arena-countdown-stopped-subtitle: '&cDar entezare player haye bishtar..'
+arena-start-title: '&aBERID'
+arena-start-tutorial:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '&e&l    Az bed khodetoon hefazat konid va bed baghie ro bekanid.'
+- '&e&l   Ba daryaft Iron, Gold, Emerald va Diamond az generator ha'
+- '&e&l              Khodetoon va teametoon ro ertegha bedid'
+- '&e&l                  ta ghodratmand tar beshid.'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+arena-join-denied-selector: '{prefix}&cMotasefane darhale hazer nemitoonid vared in
+  arena beshid. Baraye spectate kardan az Right-Click estefade konid!'
+arena-spectate-denied-selector: '{prefix}&cMotasefane darhale hazer nemitoonid in
+  arena ro spectate konid. Baraye vared shodan az Left-Click estefade konid!'
+arena-join-denied-no-bwp: "&cShoma bayad az tarighe BedWarsProxy vared bazi beshid.\
+  \ \n&eAgar mikhaid arena jadidi ijad konid motmaen shid ke permission bw.setup darid\
+  \ ta betoonid mostaghiman vared server beshid!"
+spectator-tp-gui-name: '&8Teleporter'
+spectator-tp-gui-head-name: '{vPrefix}{player}'
+spectator-tp-gui-head-lore:
+- '&7Health: &f{health}%'
+- '&7Food: &f{food}'
+- ''
+- '&7Left-click to spectate'
+spectator-tp-name: '&c&lBazgasht be lobby'
+spectator-tp-lore:
+- '&7Baraye bargasht be lobby Right-click konid!'
+spectator-first-person-enter-title: '&aDarhale spectate kardan &7{player}'
+spectator-first-person-enter-subtitle: '&cBaryae khorooj SNEAK konid'
+spectator-first-person-quit-title: '&eDarhale khorooj az halat Spectator'
+spectator-first-person-quit-subtitle: ''
+arena-leave-party-disbanded: '{prefix}§cSaheb party az server kharej shod va party
+  az bein raft!'
+generator-tier: '&eTier &c{tier}'
+generator-diamond: '&b&lDiamond'
+generator-emerald: '&a&lEmerald'
+generator-timer: '&eSpawn dar &c{seconds} &esanie'
+generator-upgrade-announce: '{prefix}{generatorType} Generator ha &eertegha peida
+  kardand be Tier &c{tier}'
+format-chat-lobby: '{level}{vPrefix}&7{player}{vSuffix}: {message}'
+format-chat-waiting: '{level}{vPrefix}&7{player}{vSuffix}: {message}'
+format-chat-global: '{level}{vPrefix}&6[SHOUT] {team} &7{player}&f{vSuffix}: {message}'
+format-chat-team: '{level}{vPrefix}&f{team}&7 {player}{vSuffix} {message}'
+format-chat-spectator: '{level}{vPrefix}&7[SPECTATOR] {player}{vSuffix}: {message}'
+format-sb-health:
+- '&c❤'
+- '&aHealth'
+format-spectator-team: SPECT
+format-spectator-color: '&7'
+format-sb-tab-prefix:
+  restarting:
+  - '{teamColor}&l{teamLetter} &r{teamColor}'
+  - '{team} '
+  - '{vPrefix} {teamColor}'
+  playing:
+  - '{teamColor}&l{teamLetter} &r{teamColor}'
+  - '{team} '
+  - '{vPrefix} {teamColor}&l{teamLetter} &r{teamColor}'
+  starting:
+  - '{vPrefix} '
+  waiting:
+  - '{vPrefix} '
+  lobby:
+  - '{vPrefix} '
+format-sb-tab-suffix:
+  restarting: []
+  playing: []
+  starting: []
+  waiting: []
+  lobby: []
+format-sb-date: dd/MM/yy
+format-sb-team-generic: '{TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}'
+format-sb-team-eliminated: '&c&l✘'
+format-sb-bed-destroyed: '&a{remainingPlayers}'
+format-sb-team-alive: '&a&l✓'
+format-sb-generator-timer: mm:ss
+format-sb-you: '&7 SHOMA'
+format-action-tracking: '&fDarhale Track: {team} &f- Fasele: {distance}m'
+format-winner-team: '      {TeamColor}{TeamName} &7- {members}'
+format-winner-solo: '                 {TeamColor}{TeamName} &7- {members}'
+format-tier1: I
+format-tier2: II
+format-tier3: III
+format-despawnable-health: '▮ '
+format-stats-time: yyyy/MM/dd HH:mm
+format-papi-player-team: '{TeamColor}[{TeamName}]'
+format-papi-player-shout: '&6[SHOUT]'
+format-papi-player-spectator: '&7[SPECTATOR]'
+meaning-full: Kamel
+meaning-shout: shout
+meaning-nobody: Hichkas
+meaning-never: Hichvaght
+meaning-iron-singular: Iron
+meaning-iron-plural: Iron
+meaning-gold-singular: Gold
+meaning-gold-plural: Gold
+meaning-emerald-singular: Emerald
+meaning-emerald-plural: Emerald
+meaning-diamond-singular: Diamond
+meaning-diamond-plural: Diamond
+meaning-vault-singular: $
+meaning-vault-plural: $
+interact-cant-place: '{prefix}&cShoma Nemitavanid Inja Block Bezarid.'
+interact-cant-break: '{prefix}&cFaghat Block Hayi Ke Player Ha Gozashtan Ghabele Kandan
+  Ast.'
+interact-cant-destroy-bed: '&cShoma Nemitavanid Bed Khodetoon Ra Bekanid.'
+interact-bed-destroy-chat: |2
+
+  &f&lBED AZ BEYN RAFT > {TeamColor}{TeamName} Bed &7Tavasote {PlayerColor}{PlayerName} &7Az Beyn Raft!
+interact-bed-destroy-title: '&cBED AZ BEYN RAFT!'
+interact-bed-destroy-subtitle: '&fShoma Digar Respawn Nakhahid Shod.'
+interact-bed-destroy-team: '&f&lBED AZ BEYN RAFT > &7Bed Shoma Tavasote {PlayerColor}{PlayerName}
+  &7Az Beyn Raft'
+interact-cant-open-chest: '&cShoma Nemitavanid In Chest Ro Be Dalil Inke Player Haye
+  Team Hanoz Namordan Baz Konid!'
+player-die-void-regular: '{PlayerColor}{PlayerName} &7Dakhel Void Oftad.'
+player-die-void-final: '{PlayerColor}{PlayerName} &7Dakhel Void Oftad. &b&lFINAL KILL!'
+player-die-knocked-void-regular: '{PlayerColor}{PlayerName} &7Tavasote {KillerColor}{KillerName}
+  &7Be Dakhel Void Part Shod.'
+player-die-knocked-void-final: '{PlayerColor}{PlayerName} &7Tavasote {KillerColor}{KillerName}
+  &7Be Dakhel Void Part Shod. &b&lFINAL KILL!'
+player-die-pvp-log-out-regular: '{PlayerColor}{PlayerName} &7Hengame Mobareze Ba {KillerColor}{KillerName}
+  &7Az Server Kharej Shod.'
+player-die-pvp-log-out-final: '{PlayerColor}{PlayerName} &7Hengame Mobareze Ba {KillerColor}{KillerName}
+  &7Az Server Kharej Shod. &b&lFINAL KILL!'
+player-die-knocked-fall-regular: '{PlayerColor}{PlayerName} &7Tavasote {KillerColor}{KillerName}
+  &7Part shod.'
+player-die-knocked-fall-final: '{PlayerColor}{PlayerName} &7Tavasote {KillerColor}{KillerName}
+  &7Part Shod. &b&lFINAL KILL!'
+player-die-bomb-regular: '{PlayerColor}{PlayerName} &7Tavasote {KillerColor}{KillerName}
+  &7Bar Asar Enfejar Mord.'
+player-die-bomb-final: '{PlayerColor}{PlayerName} &7Tavasote {KillerColor}{KillerName}
+  &7Bar Asar Enfejar Mord. &b&lFINAL KILL!'
+player-die-bomb2-regular: '{PlayerColor}{PlayerName} &7Bar Asar Enfejar Mord.'
+player-die-bomb2-final: '{PlayerColor}{PlayerName} &7Bar Asar Enfejar Mord. &b&lFINAL
+  KILL!'
+player-die-attack-regular: '{PlayerColor}{PlayerName} &7Tavasote {KillerColor}{KillerName}
+  &7Koshte Shod!'
+player-die-attack-final: '{PlayerColor}{PlayerName} &7Tavasote {KillerColor}{KillerName}
+  &7Koshte Shod! &b&lFINAL KILL!'
+player-die-unknown-regular: '{PlayerColor}{PlayerName} &7Mord.'
+player-die-unknown-final: '{PlayerColor}{PlayerName} &7Mord. &b&lFINAL KILL!'
+player-die-shoot-regular: '{PlayerColor}{PlayerName} &7Tavasote {KillerColor}{KillerName}
+  &7Shoot shod!'
+player-die-shoot-final: '{PlayerColor}{PlayerName} &7Tavasote {KillerColor}{KillerName}
+  &7Shoot shod! &b&lFINAL KILL!'
+player-die-bedbug-regular: '{PlayerColor}{PlayerName} &7Tavasote BedBug {KillerColor}{KillerTeamName}
+  &7Koshte Shod!'
+player-die-bedbug-final: '{PlayerColor}{PlayerName} &7Tavasote BedBug {KillerColor}{KillerTeamName}
+  &7Koshte Shod! &b&lFINAL KILL!'
+player-die-golem-regular: '{PlayerColor}{PlayerName} &7Tavasote Iron Golem {KillerColor}{KillerTeamName}
+  Koshte Shod!'
+player-die-golem-final: '{PlayerColor}{PlayerName} &7Tavasote Iron Golem {KillerColor}{KillerTeamName}
+  &7Koshte Shod! &b&lFINAL KILL!'
+player-loot-diamond: '{prefix}&b+{amount} {meaning}'
+player-loot-emerald: '{prefix}&a+{amount} {meaning}'
+player-loot-iron: '{prefix}&f+{amount} {meaning}'
+player-loot-gold: '{prefix}&6+{amount} {meaning}'
+player-respawn-title: '&cSHOMA MORDID!'
+player-respawn-subtitle: '&eShoma dar &c{time} &esanie dige respawn mishid!'
+player-respawn-timer-chat: '{prefix}&eShoma dar &c{time} &esanie dige respawn mishid!'
+player-respawned-title: '&aRESPAWN SHID!'
+player-eliminated-chat: '{prefix}&cShoma hazf shodid!'
+player-hit-bow: '{prefix}{TeamColor}{PlayerName} &7alan &c{amount} &7HP dare!'
+game-end-game-over-title: '&c&lBAZI TAMOOM SHOD!'
+game-end-victory-title: '&6&lBORD!'
+game-end-winner-team: '{prefix}{TeamColor}{TeamName} &abarande bazi shodan!'
+game-end-top-chat:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '{winnerFormat}'
+- ''
+- ''
+- '&e                          &lMagham #1 &7- {firstName} - {firstKills}'
+- '&6                          &lMagham #2 &7- {secondName} - {secondKills}'
+- '&c                          &lMagham #3 &7- {thirdName} - {thirdKills}'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+bed-hologram-defend: '&c&lAz Bed khodetoon hefazat konid!'
+bed-hologram-destroyed: '&c&lBed shoma az bein raft!'
+npc-team-upgrades: '&bUPGRADE HAYE TEAM,&e&lRIGHT CLICK'
+npc-solo-upgrades: '&bUPGRADE HAYE SOLO,&e&lRIGHT CLICK'
+npc-team-shop: '&bFOROOSHGAH TEAM,&e&lRIGHT CLICK'
+npc-solo-shop: '&bFOROOSHGAH ITEM,&e&lRIGHT CLICK'
+team-eliminated: |2
+
+  &f&lTEAM ELIMINATED > {TeamColor} Team {TeamName} &chazf shod!
+next-event-beds-destroy: '&cHazf Bed Ha'
+next-event-diamondII: '&fDiamond II'
+next-event-diamondIII: '&fDiamond III'
+next-event-dragon-spawn: '&fHamle Dragon'
+next-event-emeraldII: '&fEmerald II'
+next-event-emeraldIII: '&fEmerald III'
+next-event-game-end: '&4Payan Bazi'
+next-event-beds-destroy-title: '&cBED AZ BEIN RAFT!'
+next-event-beds-destroy-sub-title: '&fHameye bed ha az bein raftand!'
+next-event-beds-destroy-chat: '&c&lTamami bed ha az bein raftand!'
+next-event-sudden-death-title: '&cSudden Death'
+next-event-sudden-death-sub-title: ''
+next-event-sudden-death-chat: '&cSUDDEN DEATH: &6&b{TeamDragons} {TeamColor}{TeamName}
+  Dragon!'
+xp-reward-per-minute: '{prefix}&6+{xp} Tajrobe BedWars Daryaft Kardid (Zaman Play).'
+xp-reward-game-win: '{prefix}&6+{xp} Tajrobe BedWars Daryaft Kardid (Bord Bazi).'
+xp-reward-per-teammate: '{prefix}&6+{xp} Tajrobe BedWars Daryaft Kardid (Hemayat Az
+  Team).'
+xp-reward-bed-destroyed: '{prefix}&6+{xp} Tajrobe BedWars Daryaft Kardid (Az Bein
+  Raftan Bed).'
+xp-reward-regular-kill: '{prefix}&6+{xp} Tajrobe BedWars Daryaft Kardid (Kill e Addi).'
+xp-reward-final-kill: '{prefix}&6+{xp} Tajrobe BedWars Daryaft Kardid (Kill e Payani).'
+money-reward-per-teammate: '{prefix}&6+{money} Coin (Zaman Play).'
+money-reward-game-win: '{prefix}&6+{money} Coin (Bord Bazi).'
+money-reward-per-minute: '{prefix}&6+{money} Coin (Hemayat Az Team).'
+money-reward-bed-destroyed: '{prefix}&6+{money} Coin (Az Bein Raftan Bed).'
+money-reward-final-kill: '{prefix}&6+{money} Coin (Kill e Payani).'
+money-reward-regular-kill: '{prefix}&6+{money} Coin (Kill e Addi).'
+lobby-items-stats-name: '&eAmar'
+lobby-items-stats-lore:
+- '&fBaraye didan amaretoon Right-click konid!'
+lobby-items-arena-selector-name: '&eEntekhab Arena'
+lobby-items-arena-selector-lore:
+- '&fBaraye entekhab arena Right-click konid!'
+lobby-items-leave-name: '&eBazgasht be Hub'
+lobby-items-leave-lore:
+- '&fBaraye raftan az BedWars Right-click konid!'
+pre-game-items-stats-name: '&eAmar'
+pre-game-items-stats-lore:
+- '&fBaraye didan amaretoon Right-click konid!'
+pre-game-items-leave-name: '&eBazgasht be Lobby'
+pre-game-items-leave-lore:
+- '&fBaraye raftan az arena Right-click konid!'
+spectator-items-teleporter-name: '&eTeleport Konande'
+spectator-items-leave-name: '&eBazgasht be Lobby'
+spectator-items-leave-lore:
+- '&fBaraye raftan az arena Right-click konid!'
+stats-inv-name: '&8{player} Amar'
+stats-wins-name: '&6Bord'
+stats-wins-lore:
+- '&f{wins}'
+stats-losses-name: '&6Bakht'
+stats-losses-lore:
+- '&f{losses}'
+stats-kills-name: '&6Kill'
+stats-kills-lore:
+- '&f{kills}'
+stats-deaths-name: '&6Death'
+stats-deaths-lore:
+- '&f{deaths}'
+stats-final-kills-name: '&6Kill Haye Payani'
+stats-final-kills-lore:
+- '&f{finalKills}'
+stats-final-deaths-name: '&6Death Haye Payani'
+stats-final-deaths-lore:
+- '&f{finalDeaths}'
+stats-beds-destroyed-name: '&6Bed haye Kande Shode'
+stats-beds-destroyed-lore:
+- '&f{bedsDestroyed}'
+stats-first-play-name: '&6Avalin Bazi Anjam Shode'
+stats-first-play-lore:
+- '&f{firstPlay}'
+stats-last-play-name: '&6Akharin Bazi Anjam Shode'
+stats-last-play-lore:
+- '&f{lastPlay}'
+stats-games-played-name: '&6Tedad Bazi Anjam Shode'
+stats-games-played-lore:
+- '&f{gamesPlayed}'
+scoreboard:
+  Default:
+    waiting:
+    - '&f&lBED WARS'
+    - '&7{date} &8{server}'
+    - ''
+    - '&fMap: &a{map}'
+    - ''
+    - '&fPlayer Ha: &a{on}/{max}'
+    - ''
+    - '&fDar Entezar...'
+    - ''
+    - '§fNo: &a{group}'
+    - '&fVersion: &7{version}'
+    - ''
+    - '&e{server_ip}'
+    starting:
+    - '&f&lBED WARS'
+    - '&7{date} &8{server}'
+    - ''
+    - '&fMap: &a{map}'
+    - ''
+    - '&fPlayer Ha: &a{on}/{max}'
+    - ''
+    - '&fShoroo dar &a{time}s'
+    - ''
+    - '§fNo: &a{group}'
+    - '&fVersion: &7{version}'
+    - ''
+    - '&e{server_ip}'
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - ''
+    - '&e{server_ip}'
+  Doubles:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} dar &a{time}'
+    - ''
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - ''
+    - '&e{server_ip}'
+  3v3v3v3:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} dar &a{time}'
+    - ''
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - ''
+    - '&fKills: &a{kills}'
+    - '&fFinal Kills: &a{finalKills}'
+    - '&fBeds Broken: &a{beds}'
+    - ''
+    - '&e{server_ip}'
+  4v4v4v4:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} dar &a{time}'
+    - ''
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - '{team}'
+    - ''
+    - '&fKills: &a{kills}'
+    - '&fFinal Kills: &a{finalKills}'
+    - '&fBeds Broken: &a{beds}'
+    - ''
+    - '&e{server_ip}'
+  lobby:
+  - '&6&lBedWars,&4&lB&6edWars,&6&lB&4e&6dWars,&6&lBe&4d&6Wars,&6&lBed&4W&6ars,&6&lBedW&4a&6rs,&6&lBedWa&4r&6s,&6&lBedWar&4s,&6&lBedWars'
+  - '&fLevel Shoma: {level}'
+  - ''
+  - '&fPishraft: &a{currentXp}&7/&b{requiredXp}'
+  - '{progress}'
+  - ''
+  - '&7{player}'
+  - ''
+  - '&fCoins: &a{money}'
+  - ''
+  - '&fMajmoo Win: &a{wins}'
+  - '&fMajmoo Kill: &a{kills}'
+  - ''
+  - '&e{server_ip}'
+shop-items-messages:
+  inventory-name: '&8Kharid Sari'
+  quick-buy-add-inventory-name: '&8Adding to Quick Buy...'
+  separator-item-name: '&8⇧ Daste Bandi Ha'
+  separator-item-lore:
+  - '&8⇩ Item Ha'
+  quick-buy-item-name: '&bKharid Sari'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cSlot Khali!'
+  quick-buy-empty-item-lore:
+  - '&7Inja jaye slot Kharid Sari hast!'
+  - '&7Har item ba &bSneak Click &7bezanid ta'
+  - '&7inja ezafe beshe'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  blocks-category:
+    inventory-name: '&8Block Ha'
+    category-item-name: '&aBlock Ha'
+    category-item-lore:
+    - '&eBaraye moshahede Click konid!'
+    content-item-wool-name: '{color}Wool'
+    content-item-wool-lore:
+    - '&7Gheimat: &f{cost} {currency}'
+    - ''
+    - '&7Monaseb pol zadan be'
+    - '&7island ha. Be range teametoon'
+    - '&7teametoon dar miad.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-clay-name: '{color}Clay Mohkam'
+    content-item-clay-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Block sade baraye defa kardan az bed.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-glass-name: '{color}Glass Zedde Enfejar'
+    content-item-glass-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Zedde enfejar.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stone-name: '{color}End Stone'
+    content-item-stone-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Block sade baraye defa kardan az bed.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ladder-name: '{color}Ladder'
+    content-item-ladder-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Baraye balaraftan va gir endakhtan enemy ha'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-obsidian-name: '{color}Obsidian'
+    content-item-obsidian-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Block ghodratmand baraye defa az bed.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-wood-name: '{color}Wood'
+    content-item-wood-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Block sade baraye defa kardan az bed'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  melee-category:
+    inventory-name: '&8Melee'
+    category-item-name: '&aMelee'
+    category-item-lore:
+    - '&eBaraye Moshahede Click Konid!'
+    content-item-stone-sword-name: '{color}Stone Sword'
+    content-item-stone-sword-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-sword-name: '{color}Iron Sword'
+    content-item-iron-sword-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-sword-name: '{color}Diamond Sword'
+    content-item-diamond-sword-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stick-name: '{color}Stick (KnockBack I)'
+    content-item-stick-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  armor-category:
+    inventory-name: '&8Armor'
+    category-item-name: '&aArmor'
+    category-item-lore:
+    - '&eBaraye Moshahede Click Konid!'
+    content-item-chainmail-name: '{color}Chainmail Armor Daemi'
+    content-item-chainmail-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Chainmail legging va boot ke'
+    - '&7hamishe ba oon ha spawn mishid'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-armor-name: '{color}Iron Armor Daemi'
+    content-item-iron-armor-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Iron legging va boot ke'
+    - '&hamishe ba oon ha spawn mishid.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-armor-name: '{color}Diamond Armor Daemi'
+    content-item-diamond-armor-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Diamond legging va boot ke'
+    - '&7hamishe ba oon ha spawn mishid.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  tools-category:
+    inventory-name: '&8Tool Ha'
+    category-item-name: '&aTool Ha'
+    category-item-lore:
+    - '&eBaraye Moshahede Click Konid!'
+    content-item-shears-name: '{color}Shears Daemi'
+    content-item-shears-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Monaseb kandan wool. Shoma'
+    - '&7hamishe ba in shears ha spawn mishid.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-pickaxe-name: '{color}Pickaxe {tier}'
+    content-item-pickaxe-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - '&7Tier: &e{tier}'
+    - ''
+    - '&7In yek item ghabel erteghast.'
+    - '&7Hengam marg 1 Tier az dast'
+    - '&7midid!'
+    - ''
+    - '&7Shoma hamishe'
+    - '&7hadaghal ba paein tarin tier'
+    - '&7respawn mishid.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-axe-name: '{color}Axe {tier}'
+    content-item-axe-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - '&7Tier: &e{tier}'
+    - ''
+    - '&7In yek item ghabel erteghast.'
+    - '&7Hengam marg 1 Tier az dast'
+    - '&7midid!'
+    - ''
+    - '&7Shoma hamishe'
+    - '&7hadaghal ba paein tarin tier'
+    - '&7respawn mishid.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  ranged-category:
+    inventory-name: '&8Ranged'
+    category-item-name: '&aRanged'
+    category-item-lore:
+    - '&eBaraye Moshahede Click Konid!'
+    content-item-arrow-name: '{color}Arrow'
+    content-item-arrow-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow1-name: '{color}Bow'
+    content-item-bow1-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow2-name: '{color}Bow (Power I)'
+    content-item-bow2-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow3-name: '{color}Bow (Power I, Punch I)'
+    content-item-bow3-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  potions-category:
+    inventory-name: '&8Potion Ha'
+    category-item-name: '&aPotion Ha'
+    category-item-lore:
+    - '&eBaraye Moshahede Click Konid!'
+    content-item-speed-potion-name: '{color}Speed II Potion (45 sanie)'
+    content-item-speed-potion-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-jump-potion-name: '{color}Jump V Potion (45 sanie)'
+    content-item-jump-potion-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-invisibility-name: '{color}Invisibility Potion (30 sanie)'
+    content-item-invisibility-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  utility-category:
+    inventory-name: '&8Utility'
+    category-item-name: '&aUtility'
+    category-item-lore:
+    - '&eBaraye Moshahede Click Konid!'
+    content-item-golden-apple-name: '{color}Golden Apple'
+    content-item-golden-apple-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Monaseb bala raftan HP.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bedbug-name: '{color}BedBug'
+    content-item-bedbug-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Makani ke partab mishan silver fish'
+    - '&7baraye part kardan havas team'
+    - '&7bemodat 15 sanie spawn mishan.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-dream-defender-name: '{color}Dream Defender'
+    content-item-dream-defender-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Iron Golem be shoma dar hefazat az'
+    - '&7basetoon bemodat 4 daghighe mishe.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-fireball-name: '{color}Fireball'
+    content-item-fireball-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Partab ba Right-Click! Monaseb'
+    - '&7part kardan enemy az rooye'
+    - '&7pol haei ke roosh rah miran'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tnt-name: '{color}TNT'
+    content-item-tnt-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Dar lahze roshan mishe, monaseb'
+    - '&7monfajer kardan chizaye mokhtalef!'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ender-pearl-name: '{color}Ender Pearl'
+    content-item-ender-pearl-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Sari tarin ravesh baraye hamle'
+    - '&7be base enemy ha.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-water-bucket-name: '{color}Water Bucket'
+    content-item-water-bucket-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Monaseb baraye dashtan yek forood'
+    - '&7narm dar base enemy. Hamchenin mitoonid'
+    - '&7bahash ba TNT moghabele konid.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bridge-egg-name: '{color}Bridge Egg'
+    content-item-bridge-egg-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7In egg yek pol jadid'
+    - '&7bad az partab shodan misaze.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-magic-milk-name: '{color}Magic Milk'
+    content-item-magic-milk-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Baraye 60 sanie bad az masraf'
+    - '&7tale ha rooye shoma kar nemikonan.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-sponge-name: '{color}Sponge'
+    content-item-sponge-lore:
+    - '&7Gheimat: {cost} {currency}'
+    - ''
+    - '&7Monaseb jam kardan ab.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+shop-insuff-money: '{prefix}&cShoma be andaze kafi {currency} nadarid! Shoma {amount}
+  ta bishtar mikhaid!'
+shop-new-purchase: '{prefix}&aShoma &6{item} &akharidid'
+shop-already-bought: '{prefix}&cShoma az ghabl in ro kharidid!'
+shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
+shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
+shop-lore-status-can-buy: '&eBaraye kharid Click konid!'
+shop-lore-status-cant-afford: '&cShoma be andaze kafi {currency} nadarid!'
+shop-lore-status-tier-maxed: '&aAKHARIN LEVEL!'
+shop-lore-quick-add: '&bBaraye ezafe kardan be Kharid Sari SNEAK Click konid'
+shop-lore-quick-remove: '&bBaraye hazf az Kharid Sari SNEAK Click konid!'
+meaning-no-trap: Hich tale i nadarid!
+format-upgrade-trap-cost: '&7Gheimat: {currencyColor}{cost} {currency}'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-lore-click-buy: '{color}Baraye kharid Click konid!'
+upgrades-lore-insuff-money: '{color}Shoma be meghdar kafi {currency} nadarid'
+upgrades-lore-locked: '&cGHOFL'
+upgrades-lore-unlocked: '{color}BAZ'
+upgrades-new-purchase: '&a{player} yek &6{upgradeName} &akharid'
+upgrades-upgrade-name-forge-tier-1: '{color}Forge Iron'
+upgrades-upgrade-lore-forge-tier-1:
+- '&7Ertegha resource haei ke dar'
+- '&7island shoma spawn mishan.'
+- ''
+- '{tierColor}Tier 1: +50% Resource Bishtar, &b{cost} {currency}'
+- '&7Tier 2: +100% Resource Bishtar, &b8 Diamond'
+- '&7Tier 3: Spawn shodan Emerald, &b12 Diamond'
+- '&7Tier 4: +200% Resource Bishtar, &b16 Diamond'
+- ''
+upgrades-upgrade-name-forge-tier-2: '{color}Forge Gold'
+upgrades-upgrade-lore-forge-tier-2:
+- '&7Ertegha resource haei ke dar'
+- '&7island shoma spawn mishan.'
+- ''
+- '&aTier 1: +50% Resource Bishtar, &b{cost} {currency}'
+- '{tierColor}Tier 2: +100% Resource Bishtar, &b8 Diamond'
+- '&7Tier 3: Spawn shodan Emerald, &b12 Diamond'
+- '&7Tier 4: +200% Resource Bishtar, &b16 Diamond'
+- ''
+upgrades-upgrade-name-forge-tier-3: '{color}Forge Emerald'
+upgrades-upgrade-lore-forge-tier-3:
+- '&7Ertegha resource haei ke dar'
+- '&7island shoma spawn mishan.'
+- ''
+- '&aTier 1: +50% Resource Bishtar, &b{cost} {currency}'
+- '&aTier 2: +100% Resource Bishtar, &b8 Diamond'
+- '{tierColor}Tier 3: Spawn shodan Emerald, &b12 Diamond'
+- '&7Tier 4: +200% Resource Bishtar, &b16 Diamond'
+- ''
+upgrades-upgrade-name-forge-tier-4: '{color}Forge Molten'
+upgrades-upgrade-lore-forge-tier-4:
+- '&7Ertegha resource haei ke dar'
+- '&7island shoma spawn mishan.'
+- ''
+- '&aTier 1: +50% Resource Bishtar, &b{cost} {currency}'
+- '&aTier 2: +100% Resource Bishtar, &b8 Diamond'
+- '&aTier 3: Spawn shodan Emerald, &b12 Diamond'
+- '{tierColor}Tier 4: +200% Resource Bishtar, &b16 Diamond'
+- ''
+upgrades-category-item-name-traps: '&eKharid Tale'
+upgrades-category-item-lore-traps:
+- '&7Tale haye kharide shode'
+- '&7dar saf samte rast gharar migiran.'
+- ''
+- '&eClick to browse!'
+upgrades-upgrade-name-swords-tier-1: '{color}Sharpened Swords'
+upgrades-upgrade-lore-swords-tier-1:
+- '&7Team shoma daeman'
+- '&7Sharpness I rooye hame sword va'
+- '&7axe ha migiran!'
+- ''
+- '&7Gheimat: &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '{color}Reinforced Armor I'
+upgrades-upgrade-lore-armor-tier-1:
+- '&7Team shoma daeman'
+- '&7Protection rooye tamam armor ha migiran!'
+- ''
+- '{tierColor}Tier 1: Protection I, &b{cost} {currency}'
+- '&7Tier 2: Protection II, &b10 Diamonds'
+- '&7Tier 3: Protection III, &b20 Diamonds'
+- '&7Tier 4: Protection IV, &b30 Diamonds'
+- ''
+upgrades-upgrade-name-armor-tier-2: '{color}Reinforced Armor II'
+upgrades-upgrade-lore-armor-tier-2:
+- '&7Team shoma daeman'
+- '&7Protection rooye tamam armor ha migiran!'
+- ''
+- '&aTier 1: Protection I, &b5 Diamond'
+- '{tierColor}Tier 2: Protection II, &b{cost} {currency}'
+- '&7Tier 3: Protection III, &b20 Diamond'
+- '&7Tier 4: Protection IV, &b30 Diamond'
+- ''
+upgrades-upgrade-name-armor-tier-3: '{color}Reinforced Armor III'
+upgrades-upgrade-lore-armor-tier-3:
+- '&7Team shoma daeman'
+- '&7Protection rooye tamam armor ha migiran!'
+- ''
+- '&aTier 1: Protection I, &b5 Diamond'
+- '&aTier 2: Protection II, &b10 Diamond'
+- '{tierColor}Tier 3: Protection III, &b{cost} {currency}'
+- '&7Tier 4: Protection IV, &b30 Diamond'
+- ''
+upgrades-upgrade-name-armor-tier-4: '{color}Reinforced Armor IV'
+upgrades-upgrade-lore-armor-tier-4:
+- '&7Team shoma daeman'
+- '&7Protection rooye tamam armor ha migiran!'
+- ''
+- '&aTier 1: Protection I, &b5 Diamond'
+- '&aTier 2: Protection II, &b10 Diamond'
+- '&aTier 3: Protection III, &b20 Diamond'
+- '{tierColor}Tier 4: Protection IV, &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-miner-tier-1: '{color}Maniac Miner I'
+upgrades-upgrade-lore-miner-tier-1:
+- '&7Tamam player haye team shoma'
+- '&7daeman Haste migiran.'
+- ''
+- '{tierColor}Tier 1: Haste I, &b{cost} {currency}'
+- '&7Tier 2: Haste II, &b6 Diamonds'
+- ''
+upgrades-upgrade-name-miner-tier-2: '{color}Maniac Miner II'
+upgrades-upgrade-lore-miner-tier-2:
+- '&7Hame player haye team shoma'
+- '&7daeman Haste migiran.'
+- ''
+- '&aTier 1: Haste I, &b4 Diamonds'
+- '{tierColor}Tier 2: Haste II, &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-heal-pool-tier-1: '{color}Heal Pool'
+upgrades-upgrade-lore-heal-pool-tier-1:
+- '&7Yek mantaghe regeneration'
+- '&7atraf base shoma misaze!'
+- ''
+- '&7Gheimat: &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
+upgrades-upgrade-lore-dragon-tier-1:
+- '&7Team shoma bejaye 1 dragon'
+- '&72ta dragon migire!'
+- ''
+- '&7Gheimat: &b{cost} {currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Ghabel Kharid'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Safe Tale'
+upgrades-trap-slot-item-name-first: '{color}Tale #1: {name}'
+upgrades-trap-slot-item-lore1-first:
+- '&7Avalin enemy ke vared'
+- '&7base shoma beshe in'
+- '&7tale faal mishe!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7Bad az kharid yek tale dar saf'
+- '&7inja gharar migire. Gheimat tale ha'
+- '&7bar asase tedad tale haye mojood'
+- '&7taghir peida mikone.'
+- ''
+- '&7Tale Badi: &b{cost} {currency}'
+upgrades-trap-slot-item-name-second: '{color}Tale #2: {name}'
+upgrades-trap-slot-item-lore1-second:
+- '&7Dovomin enemy ke vared'
+- '&7base shoma beshe in'
+- '&7tale faal mishe!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7Bad az kharid yek tale dar saf'
+- '&7inja gharar migire. Gheimat tale ha'
+- '&7bar asase tedad tale haye mojood'
+- '&7taghir peida mikone.'
+- ''
+- '&7Tale Badi: &b{cost} {currency}'
+upgrades-trap-slot-item-name-third: '{color}Tale #3: {name}'
+upgrades-trap-slot-item-lore1-third:
+- '&7Sevomin enemy ke vared'
+- '&7base shoma beshe in'
+- '&7tale faal mishe!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7Bad az kharid yek tale dar saf'
+- '&7inja gharar migire. Gheimat tale ha'
+- '&7bar asase tedad tale haye mojood'
+- '&7taghir peida mikone.'
+- ''
+- '&7Tale Badi: &b{cost} {currency}'
+upgrades-base-trap-name-1: '{color}Tale Sade!'
+upgrades-base-trap-lore-1:
+- '&7Hengam vorood enemy ha be island'
+- '&7baraye 5 sanie koor va kond mishan.'
+- ''
+upgrades-base-trap-name-2: '{color}Counter-Offensive Trap'
+upgrades-base-trap-lore-2:
+- '&7Grants Speed I for 15 seconds to'
+- '&7allied players near your base.'
+- ''
+upgrades-base-trap-name-3: '{color}Tale Alarm'
+upgrades-base-trap-lore-3:
+- '&7Hengam Vorood Afrade Invisible'
+- '&7Be Teametoon Hoshdar Dade Mishe.'
+- ''
+upgrades-base-trap-name-4: '{color}Trap Miner Fatigue'
+upgrades-base-trap-lore-4:
+- '&7Baraye 10 sanie Miner Fatigue Enemy'
+- '&7Haei Ke Vared Base Mishano Faal Mikone.'
+- ''
+upgrades-separator-item-name-back: '&aBazgasht'
+upgrades-separator-item-lore-back:
+- '&7To Upgrades & Traps'
+upgrades-category-gui-name-traps: '&8Dar saf gharar dadan Tale'
+upgrades-trap-queue-full: '&cEmkan Kharid Tale Bishtar Ra Nadarid.'
+upgrades-trap-default-msg: '&c&l{trap} khamoosh shod!'
+upgrades-trap-default-title: '&cTALE FAAL SHOD!'
+upgrades-trap-default-subtitle: '&f{trap} Shoma Faal Shod.'
+upgrades-base-trap-msg-3: '&c&lHoshdar Tale Tavasote &7&l{player} &c&laz team {color}&l{team}
+  &c&lGheyre Faal Shod!'
+upgrades-base-trap-title-3: '&c&lHOSHDAR!!!'
+upgrades-base-trap-subtitle-3: '&fAlarm Tale Tavasote Team {color}{team} &fGheyre
+  Faal Shod!'
+lobby-items-QuickPlay-name: '&cName not set at: &flobby-items-QuickPlay-name'
+pre-game-items-forcestart-name: '&cName not set at: &fpre-game-items-forcestart-name'
+addons:
+  win-streak:
+    player-streak: '&7Your winning streak is {STREAK}'
+    player-best-streak: '&7Your best winning streak is {BEST_STREAK}'
+    unknown-player: '&c{PLAYER} is not online.'
+    not-valid-number: '&c{NUMBER} not a valid number.'
+    not-enough-streak: '&c{PLAYER} not enough streaks. Has {WIN_STREAK} Win Streak'
+    successfully-added: '&7{AMOUNT} streaks has been added to {PLAYER}. {PLAYER} has
+      {WIN_STREAK} Win Streak'
+    successfully-removed: '&7{AMOUNT} streaks has been removed to {PLAYER}. {PLAYER}
+      has {WIN_STREAK} Win Streak'
+    successfully-set: '&7{PLAYER} now has {WIN_STREAK} Win Streak'
+    successfully-reset: '&7You''ve reset {PLAYER} Win Streak to 0'
+  compass:
+    messages:
+      not-all-beds-destroyed: '&cNo todos los enemigos tienen la cama destruida!'
+      purchase-message: '&cPerderás la habilidad de rastrear a este equipo cuando
+        mueras!'
+      not-enough-resource: '&cNo tienes suficientes recursos!'
+      already-tracking: '&cYa estas rastreando a este equipo!'
+    tracker-status:
+      not-enough: '&cNo tienes suficientes recursos!'
+      locked: '&cSe desbloqueara cuando todas las camas enemigas esten destruidas!'
+      unlocked: '&eClick para comprar!'
+    action-bar:
+      tracking-format: '&fRastreando a: {teamColor}&l{target} &f- Distancia: &a&l{distance}m'
+    team-message-format: '&a&lTEAM > &7{player}: {message}'
+    compass-item:
+      display-name: '&aBrujula &7(Click Derecho)'
+      lore: []
+    tracker-shop:
+      display-name: '&aTracker Shop'
+      lore:
+      - '&7Purchase tracking update for'
+      - '&7your compass which will track'
+      - '&7each player on a specific team'
+      - '&7until you die.'
+    menus:
+      main-menu:
+        title: '&7Comunicación rápida y rastreador'
+        tracker:
+          display-name: '&aTienda de rastreadores'
+          lore:
+          - '&7Compra la habilidad de rastrear'
+          - '&7para tu brújula'
+          - '&7rastreando a cada jugador en un'
+          - '&7equipo específico hasta'
+          - '&7que mueras.'
+          - ''
+          - '&eClick para abrir!'
+        tracker-team:
+          display-name: '&aTienda de rastreadores'
+          lore:
+          - '&7Compra la habilidad de rastrear'
+          - '&7para tu brújula'
+          - '&7rastreando a cada jugador en un'
+          - '&7equipo específico hasta'
+          - '&7que mueras.'
+          - ''
+          - '&eClick para abrir!'
+        communications:
+          display-name: '&aComunicación rápida'
+          lore:
+          - '&7Envía un chat rápido a'
+          - '&7tu equipo!'
+          - ''
+          - '&eClick para abrir!'
+      tracker-menu:
+        title: '&8Comprar rastreador de enemigos'
+        team-item:
+          display-name: '&cRastrear equipo {team}'
+          lore:
+          - '&7Compra la habilidad de rastrear'
+          - '&7para tu brújula'
+          - '&7rastreando a cada jugador en un'
+          - '&7equipo específico hasta'
+          - '&7que mueras.'
+          - ''
+          - '&7Precio: &22 Emeralds'
+          - ''
+          - '{status}'
+        back-item:
+          display-name: '&aAtrás'
+          lore:
+          - '&7A Comunicación rápida y rastreador'
+      communications:
+        title: '&8Comunicación rapída'
+        back-item:
+          display-name: '&aAtrás'
+          lore:
+          - '&7A Comunicación rápida y rastreador'
+        items:
+          '1':
+            message: '&aSalam ( ﾟ◡ﾟ)/!'
+            display-name: '&aSalam ( ﾟ◡ﾟ)/!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '2':
+            message: '&aDaram Be Base Barmigardam'
+            display-name: '&aDaram Be Base Barmigardam'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '3':
+            message: '&aDaram Defa Mikonam!'
+            display-name: '&aDaram Defa Mikonam!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '4':
+            message: '&aDaram Rush Midam Be Teame {team}'
+            display-name: '&aDaram Rush Midam!'
+            lore:
+            - '&7Shoma In Ghabeliat Ro Darid Ke'
+            - '&7Yek Team Ro Entekhab Konid'
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '5':
+            message: '&aDaram {resource} &aJam Mikonam'
+            display-name: '&aDaram Resource Jam Mikonam!'
+            lore:
+            - '&7Shoma In Ghabeliat Ro Darid Ke'
+            - '&7Resource Ro Entekhab Konid'
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '6':
+            message: '&7{resource} &aGereftam'
+            display-name: '&aResource Gereftam!'
+            lore:
+            - '&7Shoma In Ghabeliat Ro Darid Ke'
+            - '&7Resource Ro Entekhab Konid'
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '7':
+            message: '&aMamnoon'
+            display-name: '&aMamnoon!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '8':
+            message: '&aBargard Be Base'
+            display-name: '&aBargard Be Base!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '9':
+            message: '&aLotfan Defa Kon!'
+            display-name: '&aLotfan Defa Kon!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '10':
+            message: '&aBerim Be {team} &aHamle Konim'
+            display-name: '&aBerim Rush Bedim!'
+            lore:
+            - '&7Shoma In Ghabeliat Ro Darid Ke'
+            - '&7Yek Team Ro Entekhab Konid'
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '11':
+            message: '&aMa Be {resource} &aNiaz Darim.'
+            display-name: '&aBe Resource Niaz Darim!'
+            lore:
+            - '&7Shoma In Ghabeliat Ro Darid Ke'
+            - '&7Resource Ro Entekhab Konid'
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '12':
+            message: '&aYe Player Dare Miad!'
+            display-name: '&aPlayer Dare Miad!!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+    communication-menus:
+      lore:
+      - '&7Click para enviar: ''{message}&7'''
+      - '&7a tu equipo!'
+      - ''
+      - '&eClick para enviar!'
+      teams:
+        title: '&8Select an option:'
+        back-item:
+          display-name: '&aVolver'
+          lore:
+          - '&7A comunicacion rápida'
+      resources:
+        title: '&8Selecciona una accion:'
+        back-item:
+          display-name: '&aVolver'
+          lore:
+          - '&7A comunicacion rápida'
+        iron:
+          resource-name: '&f&lHIERRO'
+        gold:
+          resource-name: '&6&lORO'
+        diamond:
+          resource-name: '&b&lDIAMANTES'
+        emerald:
+          resource-name: '&2&lESMERALDAS'
+  team-selector:
+    inventory-name: '&8Team Selector'
+    selector-name: '&9Team Selector'
+    selector-lore:
+    - '&7Right-Click to to open!'
+    choice:
+      lore:
+      - ''
+      - '&7&o{members}'
+      - ''
+      - '&eClick to join!'
+      name: '{color}{team} &f({selected}&7/&f{total})'
+    switch-disabled: '{prefix}&cYou cannot change your team!'
+    team-join: '{prefix}&eYou joined the {color}{team} &eteam!'
+    team-full: '{prefix}{color}{team} &c Team is full!'
+    teams-not-balanced: '{prefix}&cTeams are not balanced! Try joining another team!'
+    party-deny: '{prefix}&cYou can''t choose your team because you''re in a party!'
+    cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
+      The game is starting!'
+    already-in-team: '{prefix}&cYou are already in this team!'
+lobby-items-mycosmetics-name: '&cName not set at: &flobby-items-mycosmetics-name'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
+display-group-default: Default
+team-name-squads-ashore-Red: Red
+team-name-squads-ashore-Blue: Blue
+team-name-squads-ashore-Yellow: Yellow
+team-name-squads-ashore-Green: Green
+team-name-squads-catalyst-Red: Red
+team-name-squads-catalyst-Blue: Blue
+team-name-squads-catalyst-Yellow: Yellow
+team-name-squads-catalyst-Green: Green
+team-name-solo-amazon-Red: Red
+team-name-solo-amazon-Blue: Blue
+team-name-solo-amazon-Green: Green
+team-name-solo-amazon-Yellow: Yellow
+team-name-solo-amazon-Aqua: Aqua
+team-name-solo-amazon-White: White
+team-name-solo-amazon-Pink: Pink
+team-name-solo-amazon-Gray: Gray
+team-name-doubles-ashfire-Gray: Gray
+team-name-doubles-ashfire-Pink: Pink
+team-name-doubles-ashfire-White: White
+team-name-doubles-ashfire-Aqua: Aqua
+team-name-doubles-ashfire-Red: Red
+team-name-doubles-ashfire-Yellow: Yellow
+team-name-doubles-ashfire-Blue: Blue
+team-name-doubles-ashfire-Green: Green
+team-name-solo-airshow-Gray: Gray
+team-name-solo-airshow-Pink: Pink
+team-name-solo-airshow-Yellow: Yellow
+team-name-solo-airshow-White: White
+team-name-solo-airshow-Red: Red
+team-name-solo-airshow-Green: Green
+team-name-solo-airshow-Aqua: Aqua
+team-name-solo-airshow-Blue: Blue
+team-name-doubles-egghunt-Aqua: Aqua
+team-name-doubles-egghunt-Gray: Gray
+team-name-doubles-egghunt-White: White
+team-name-doubles-egghunt-Pink: Pink
+team-name-doubles-egghunt-Green: Green
+team-name-doubles-egghunt-Red: Red
+team-name-doubles-egghunt-Yellow: Yellow
+team-name-doubles-egghunt-Blue: Blue
+team-name-doubles-amazon-Red: Red
+team-name-doubles-amazon-Blue: Blue
+team-name-doubles-amazon-Green: Green
+team-name-doubles-amazon-Yellow: Yellow
+team-name-doubles-amazon-Aqua: Aqua
+team-name-doubles-amazon-White: White
+team-name-doubles-amazon-Pink: Pink
+team-name-doubles-amazon-Gray: Gray
+team-name-squads-chained-Green: Green
+team-name-squads-chained-Yellow: Yellow
+team-name-squads-chained-Blue: Blue
+team-name-squads-chained-Red: Red
+team-name-trios-catalyst-Red: Red
+team-name-trios-catalyst-Blue: Blue
+team-name-trios-catalyst-Yellow: Yellow
+team-name-trios-catalyst-Green: Green
+team-name-trios-congress-Red: Red
+team-name-trios-congress-Blue: Blue
+team-name-trios-congress-Green: Green
+team-name-trios-congress-Yellow: Yellow
+team-name-doubles-lighthouse-Gray: Gray
+team-name-doubles-lighthouse-Pink: Pink
+team-name-doubles-lighthouse-Red: Red
+team-name-doubles-lighthouse-White: White
+team-name-doubles-lighthouse-Blue: Blue
+team-name-doubles-lighthouse-Aqua: Aqua
+team-name-doubles-lighthouse-Green: Green
+team-name-doubles-lighthouse-Yellow: Yellow
+team-name-squads-carapace-Yellow: Yellow
+team-name-squads-carapace-Green: Green
+team-name-squads-carapace-Red: Red
+team-name-squads-carapace-Blue: Blue
+team-name-squads-cauldron-Green: Green
+team-name-squads-cauldron-Yellow: Yellow
+team-name-squads-cauldron-Blue: Blue
+team-name-squads-cauldron-Red: Red
+team-name-solo-dragonstar-Gray: Gray
+team-name-solo-dragonstar-Pink: Pink
+team-name-solo-dragonstar-Red: Red
+team-name-solo-dragonstar-White: White
+team-name-solo-dragonstar-Blue: Blue
+team-name-solo-dragonstar-Aqua: Aqua
+team-name-solo-dragonstar-Green: Green
+team-name-solo-dragonstar-Yellow: Yellow
+team-name-trios-ashore-Red: Red
+team-name-trios-ashore-Blue: Blue
+team-name-trios-ashore-Yellow: Yellow
+team-name-trios-ashore-Green: Green
+team-name-trios-chained-Green: Green
+team-name-trios-chained-Yellow: Yellow
+team-name-trios-chained-Blue: Blue
+team-name-trios-chained-Red: Red
+team-name-squads-forest-Red: Red
+team-name-squads-forest-Blue: Blue
+team-name-squads-forest-Yellow: Yellow
+team-name-squads-forest-Green: Green
+team-name-solo-speedway-Gray: Gray
+team-name-solo-speedway-Pink: Pink
+team-name-solo-speedway-White: White
+team-name-solo-speedway-Red: Red
+team-name-solo-speedway-Aqua: Aqua
+team-name-solo-speedway-Yellow: Yellow
+team-name-solo-speedway-Blue: Blue
+team-name-solo-speedway-Green: Green
+team-name-trios-cauldron-Green: Green
+team-name-trios-cauldron-Yellow: Yellow
+team-name-trios-cauldron-Blue: Blue
+team-name-trios-cauldron-Red: Red
+team-name-trios-carapace-Yellow: Yellow
+team-name-trios-carapace-Green: Green
+team-name-trios-carapace-Red: Red
+team-name-trios-carapace-Blue: Blue
+team-name-squads-boletum-Red: Red
+team-name-squads-boletum-Blue: Blue
+team-name-squads-boletum-Green: Green
+team-name-squads-boletum-Yellow: Yellow
+team-name-squads-congress-Red: Red
+team-name-squads-congress-Blue: Blue
+team-name-squads-congress-Green: Green
+team-name-squads-congress-Yellow: Yellow
+team-name-solo-zarzul-Pink: Pink
+team-name-solo-zarzul-White: White
+team-name-solo-zarzul-Gray: Gray
+team-name-solo-zarzul-Aqua: Aqua
+team-name-solo-zarzul-Red: Red
+team-name-solo-zarzul-Yellow: Yellow
+team-name-solo-zarzul-Blue: Blue
+team-name-solo-zarzul-Green: Green
+team-name-doubles-hollow-Gray: Gray
+team-name-doubles-hollow-Pink: Pink
+team-name-doubles-hollow-Red: Red
+team-name-doubles-hollow-White: White
+team-name-doubles-hollow-Blue: Blue
+team-name-doubles-hollow-Aqua: Aqua
+team-name-doubles-hollow-Green: Green
+team-name-doubles-hollow-Yellow: Yellow
+team-name-trios-temple-Red: Red
+team-name-trios-temple-Green: Green
+team-name-trios-temple-Yellow: Yellow
+team-name-trios-temple-Blue: Blue
+team-name-doubles-zarzul-Pink: Pink
+team-name-doubles-zarzul-White: White
+team-name-doubles-zarzul-Gray: Gray
+team-name-doubles-zarzul-Aqua: Aqua
+team-name-doubles-zarzul-Red: Red
+team-name-doubles-zarzul-Yellow: Yellow
+team-name-doubles-zarzul-Blue: Blue
+team-name-doubles-zarzul-Green: Green
+team-name-doubles-easterbasket-Pink: Pink
+team-name-doubles-easterbasket-White: White
+team-name-doubles-easterbasket-Aqua: Aqua
+team-name-doubles-easterbasket-Gray: Gray
+team-name-doubles-easterbasket-Red: Red
+team-name-doubles-easterbasket-Yellow: Yellow
+team-name-doubles-easterbasket-Green: Green
+team-name-doubles-easterbasket-Blue: Blue
+team-name-doubles-dragonstar-Gray: Gray
+team-name-doubles-dragonstar-Pink: Pink
+team-name-doubles-dragonstar-Red: Red
+team-name-doubles-dragonstar-White: White
+team-name-doubles-dragonstar-Blue: Blue
+team-name-doubles-dragonstar-Aqua: Aqua
+team-name-doubles-dragonstar-Green: Green
+team-name-doubles-dragonstar-Yellow: Yellow
+team-name-solo-easterbasket-Pink: Pink
+team-name-solo-easterbasket-White: White
+team-name-solo-easterbasket-Aqua: Aqua
+team-name-solo-easterbasket-Gray: Gray
+team-name-solo-easterbasket-Red: Red
+team-name-solo-easterbasket-Yellow: Yellow
+team-name-solo-easterbasket-Green: Green
+team-name-solo-easterbasket-Blue: Blue
+team-name-doubles-waterfall-Gray: Gray
+team-name-doubles-waterfall-Pink: Pink
+team-name-doubles-waterfall-White: White
+team-name-doubles-waterfall-Red: Red
+team-name-doubles-waterfall-Aqua: Aqua
+team-name-doubles-waterfall-Blue: Blue
+team-name-doubles-waterfall-Green: Green
+team-name-doubles-waterfall-Yellow: Yellow
+team-name-trios-boletum-Red: Red
+team-name-trios-boletum-Blue: Blue
+team-name-trios-boletum-Green: Green
+team-name-trios-boletum-Yellow: Yellow
+team-name-solo-egghunt-Aqua: Aqua
+team-name-solo-egghunt-Gray: Gray
+team-name-solo-egghunt-White: White
+team-name-solo-egghunt-Pink: Pink
+team-name-solo-egghunt-Green: Green
+team-name-solo-egghunt-Red: Red
+team-name-solo-egghunt-Yellow: Yellow
+team-name-solo-egghunt-Blue: Blue
+team-name-doubles-speedway-Gray: Gray
+team-name-doubles-speedway-Pink: Pink
+team-name-doubles-speedway-White: White
+team-name-doubles-speedway-Red: Red
+team-name-doubles-speedway-Aqua: Aqua
+team-name-doubles-speedway-Yellow: Yellow
+team-name-doubles-speedway-Blue: Blue
+team-name-doubles-speedway-Green: Green
+team-name-solo-hollow-Gray: Gray
+team-name-solo-hollow-Pink: Pink
+team-name-solo-hollow-Red: Red
+team-name-solo-hollow-White: White
+team-name-solo-hollow-Blue: Blue
+team-name-solo-hollow-Aqua: Aqua
+team-name-solo-hollow-Green: Green
+team-name-solo-hollow-Yellow: Yellow
+team-name-doubles-airshow-Gray: Gray
+team-name-doubles-airshow-Pink: Pink
+team-name-doubles-airshow-Yellow: Yellow
+team-name-doubles-airshow-White: White
+team-name-doubles-airshow-Red: Red
+team-name-doubles-airshow-Green: Green
+team-name-doubles-airshow-Aqua: Aqua
+team-name-doubles-airshow-Blue: Blue
+team-name-trios-landscape-Red: Red
+team-name-trios-landscape-Blue: Blue
+team-name-trios-landscape-Yellow: Yellow
+team-name-trios-landscape-Green: Green
+team-name-solo-lighthouse-Gray: Gray
+team-name-solo-lighthouse-Pink: Pink
+team-name-solo-lighthouse-Red: Red
+team-name-solo-lighthouse-White: White
+team-name-solo-lighthouse-Blue: Blue
+team-name-solo-lighthouse-Aqua: Aqua
+team-name-solo-lighthouse-Green: Green
+team-name-solo-lighthouse-Yellow: Yellow
+team-name-solo-ashfire-Gray: Gray
+team-name-solo-ashfire-Pink: Pink
+team-name-solo-ashfire-White: White
+team-name-solo-ashfire-Aqua: Aqua
+team-name-solo-ashfire-Red: Red
+team-name-solo-ashfire-Yellow: Yellow
+team-name-solo-ashfire-Blue: Blue
+team-name-solo-ashfire-Green: Green
+team-name-squads-archway-Yellow: Yellow
+team-name-squads-archway-Red: Red
+team-name-squads-archway-Green: Green
+team-name-squads-archway-Blue: Blue
+team-name-squads-aquarium-Green: Green
+team-name-squads-aquarium-Blue: Blue
+team-name-squads-aquarium-Yellow: Yellow
+team-name-squads-aquarium-Red: Red
+team-name-trios-swashbuckle-Yellow: Yellow
+team-name-trios-swashbuckle-Red: Red
+team-name-trios-swashbuckle-Green: Green
+team-name-trios-swashbuckle-Blue: Blue
+team-name-solo-waterfall-Gray: Gray
+team-name-solo-waterfall-Pink: Pink
+team-name-solo-waterfall-White: White
+team-name-solo-waterfall-Red: Red
+team-name-solo-waterfall-Aqua: Aqua
+team-name-solo-waterfall-Blue: Blue
+team-name-solo-waterfall-Green: Green
+team-name-solo-waterfall-Yellow: Yellow
+display-group-doubles: Doubles
+display-group-solo: Solo
+display-group-trios: Trios
+display-group-squads: Squads
+team-name-stifte1v1-2v2-Blue: Blue
+team-name-stifte1v1-2v2-Red: Red
+team-name-stifte1v1-2v2-blue: blue
+team-name-stifte1v1-2v2-red: red
+team-name-stifte-2v2-blue: blue
+team-name-stifte-2v2-red: red
